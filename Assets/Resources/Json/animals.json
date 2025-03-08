@@ -1,0 +1,45 @@
+{
+  "animals": [
+
+    {
+      "animalName": "Chicken",
+      "animalDescription": "",
+      "animalBuyPrice": 100,
+      "animalSellPrice": 50,
+
+      "animalIconName": "ChickenIcon",
+      "animalPrefabName":  "ChickenPrefab"
+    },
+
+    {
+      "animalName": "Cow",
+      "animalDescription": "",
+      "animalBuyPrice": 500,
+      "animalSellPrice": 250,
+
+      "animalIconName": "CowIcon",
+      "animalPrefabName": "CowPrefab"
+    },
+
+    {
+      "animalName": "Bear",
+      "animalDescription": "",
+      "animalBuyPrice": 0,
+      "animalSellPrice": 0,
+
+      "animalIconName": "BearIcon",
+      "animalPrefabName": "BearPrefab"
+    },
+
+
+    {
+      "animalName": "Worm",
+      "animalDescription": "",
+      "animalBuyPrice": 0,
+      "animalSellPrice": 0,
+
+      "animalIconName": "",
+      "animalPrefabName": "WormPrefab"
+    }
+  ]
+}

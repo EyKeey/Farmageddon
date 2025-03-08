@@ -1,0 +1,27 @@
+{
+  "recipes": [
+    {
+      "inputItems": [ "Egg", "Egg" ],
+      "result": "PackedEgg",
+      "productionTime": 15,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "Egg", "Egg", "Egg" ],
+      "result": "GoldenEgg",
+      "productionTime": 15,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05,
+        "Legendary": 0
+      }
+    }
+  
+  ]
+}

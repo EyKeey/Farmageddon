@@ -1,0 +1,10 @@
+{
+  "seeds": [
+    {
+      "seedName": "WheatSeed",
+      "producedItem": "Flour",
+      "growthTime": 10,
+      "dropChance": 5
+    }
+  ]
+}

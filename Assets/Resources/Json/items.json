@@ -1,0 +1,132 @@
+{
+  "items": [
+    {
+      "baseName": "Egg",
+      "itemID": 0,
+      "sellPrice": 10,
+      "storageCost": 1,
+      "rarity": "Common",
+      "productionName": 0,
+
+      "itemName": "Egg",
+      "itemDescription": "",
+      "itemPrefabName": "EggPrefab",
+      "itemIconName": "EggIcon"
+    },
+
+    {
+      "baseName": "Milk",
+      "itemID": 1,
+      "sellPrice": 40,
+      "storageCost": 1,
+      "rarity": "Common",
+      "productionName": 0,
+
+      "itemName": "Milk",
+      "itemDescription": "",
+      "itemPrefabName": "MilkPrefab",
+      "itemIconName": "MilkIcon"
+    },
+
+    {
+      "baseName": "Packet Egg",
+      "itemID": 10,
+      "sellPrice": 100,
+      "storageCost": 2,
+      "rarity": "Common",
+      "productionName": 10,
+
+      "itemName": "PackedEgg",
+      "itemDescription": "",
+      "itemPrefabName": "PackedEggPrefab",
+      "itemIconName": "PackedEggIcon"
+    },
+
+    {
+      "baseName": "Golden Egg",
+      "itemID": 11,
+      "sellPrice": 150,
+      "storageCost": 3,
+      "rarity": "Common",
+      "productionName": 10,
+
+      "itemName": "GoldenEgg",
+      "itemDescription": "",
+      "itemPrefabName": "GoldenEggPrefab",
+      "itemIconName": "GoldenEggIcon"
+    },
+
+    {
+      "baseName": "Chocolate Bar",
+      "itemID": 12,
+      "sellPrice": 200,
+      "storageCost": 3,
+      "rarity": "Common",
+      "productionName": 0,
+
+      "itemName": "ChocolateBar",
+      "itemDescription": "",
+      "itemPrefabName": "ChocolateBarPrefab",
+      "itemIconName": "ChocolateBarIcon"
+    },
+
+    {
+      "baseName": "Cake",
+      "itemID": 13,
+      "sellPrice": 100,
+      "storageCost": 3,
+      "rarity": "Common",
+      "productionName": 0,
+
+
+      "itemName": "Cake",
+      "itemDescription": "",
+      "itemPrefabName": "CakePrefab",
+      "itemIconName": "CakeIcon"
+    },
+
+    {
+      "baseName": "Beef",
+      "itemID": 14,
+      "sellPrice": 100,
+      "storageCost": 3,
+      "rarity": "Common",
+      "productionName": 0,
+
+
+      "itemName": "Beef",
+      "itemDescription": "",
+      "itemPrefabName": "BakePrefab",
+      "itemIconName": "BakeIcon"
+    },
+
+    {
+      "baseName": "Flour",
+      "itemID": 15,
+      "sellPrice": 130,
+      "storageCost": 3,
+      "rarity": "Common",
+      "productionName": 0,
+
+      "itemName": "Flour",
+      "itemDescription": "",
+      "itemPrefabName": "FlourPrefab",
+      "itemIconName": "FlourIcon"
+    },
+
+    {
+      "baseName": "Bear",
+      "itemID": 20,
+      "sellPrice": 100,
+      "storageCost": 8,
+      "rarity": "Common",
+      "productionName": 0,
+
+      "itemName": "Bear",
+      "itemDescription": "",
+      "itemPrefabName": "BearPrefab",
+      "itemIconName": "BearIcon"
+    }
+  ]
+
+}
