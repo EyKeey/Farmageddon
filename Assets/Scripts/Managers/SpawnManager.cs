@@ -38,6 +38,7 @@ public class SpawnManager : MonoBehaviour
 
     private void Update()
     {
+        CheckTimeForRandomSpawn("Worm");
         CheckTimeForRandomSpawn("Bear");
     }
 

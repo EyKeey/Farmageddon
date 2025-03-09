@@ -67,7 +67,6 @@
     <Compile Include="Assets\Scripts\Managers\CollectManager.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexShakeA.cs" />
     <Compile Include="Assets\Scripts\Managers\InventoryManager.cs" />
-    <Compile Include="Assets\UIAnimator.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\EnvMapAnimator.cs" />
     <Compile Include="Assets\Scripts\Managers\AnimalLoader.cs" />
     <Compile Include="Assets\Scripts\UI\LevelInfoPanel.cs" />
@@ -88,6 +87,8 @@
     <Compile Include="Assets\Scripts\Objects\Seed.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\TextMeshSpawner.cs" />
+    <Compile Include="Assets\Scripts\UI\UIAnimator.cs" />
+    <Compile Include="Assets\Scripts\UI\FarmScreen.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
     <Compile Include="Assets\Scripts\Objects\AnimalHunt.cs" />
     <Compile Include="Assets\DOTween\Modules\DOTweenModulePhysics2D.cs" />
@@ -104,7 +105,6 @@
     <Compile Include="Assets\Scripts\MergeRecipes.cs" />
     <Compile Include="Assets\Scripts\Managers\VictoryManager.cs" />
     <Compile Include="Assets\Scripts\Managers\SeedLoader.cs" />
-    <Compile Include="Assets\FarmScreen.cs" />
     <Compile Include="Assets\Scripts\UI\MergeResultSlot.cs" />
     <Compile Include="Assets\Scripts\Managers\SeedManager.cs" />
     <Compile Include="Assets\Scripts\UI\SafeAreaUI.cs" />

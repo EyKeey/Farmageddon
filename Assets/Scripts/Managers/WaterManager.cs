@@ -32,8 +32,12 @@ public class WaterManager : MonoBehaviour
         {
             WaterEmpty();
             return false;
-        }else
+        }
+        else
+        {
             return true;
+        }
+           
         
     }
 
@@ -50,14 +54,14 @@ public class WaterManager : MonoBehaviour
     public void FullWater()
     {
 
-        if (MoneyManager.instance.DecreaseMoney(waterCost))
+        if (MoneyManager.instance.DecreaseMoney(waterCost) && currentWaterAmount != fullWaterAmount)
         {
             currentWaterAmount = fullWaterAmount;
             waterSlider.value = currentWaterAmount / fullWaterAmount;
         }
         else
         {
-            //Debug.Log("Not enough Money");
+            UIAnimator.Instance.ShowMessage("Yeterli para yok.");
         }
 
         
