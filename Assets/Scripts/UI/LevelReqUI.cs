@@ -24,35 +24,41 @@ public class LevelReqUI : MonoBehaviour
         foreach (var item in currentLevelData.winCondition.requiredItems)
         {
             int currentAmount = InventoryManager.Instance.GetItemCount(item.itemName);
-            CreateRequirementUI(item.itemName, currentAmount, item.count);
+            CreateRequirementUI(item.itemName, currentAmount, item.count, "Item");
         }
 
         // Hayvan Gereksinimleri
         foreach (var animal in currentLevelData.winCondition.requiredAnimals)
         {
             int currentAmount = InventoryManager.Instance.GetAnimalCount(animal.animalName);
-            CreateRequirementUI(animal.animalName, currentAmount, animal.count);
-        }
-
-        // Ayý Yakalama Þartý
-        if (currentLevelData.winCondition.catchedBears > 0)
-        {
-            int currentAmount = InventoryManager.Instance.catchedBears;
-            CreateRequirementUI("Bear", currentAmount, currentLevelData.winCondition.catchedBears);
+            CreateRequirementUI(animal.animalName, currentAmount, animal.count, "Animal");
         }
 
         // Altýn Gereksinimi
         if (currentLevelData.winCondition.requiredGold > 0)
         {
             int currentAmount = MoneyManager.instance.currentMoney;
-            CreateRequirementUI("Gold", currentAmount, currentLevelData.winCondition.requiredGold);
+            CreateRequirementUI("Gold", currentAmount, currentLevelData.winCondition.requiredGold, "Gold");
         }
     }
 
-    private void CreateRequirementUI(string requirementName, int currentAmount, int requiredAmount)
+    private void CreateRequirementUI(string requirementName, int currentAmount, int requiredAmount, string type)
     {
         GameObject reqItem = Instantiate(ReqUIChildPrefab, transform);
         activeUIElements.Add(reqItem);
+
+        if(type == "Item")
+        {
+            reqItem.transform.GetChild(0).GetComponent<Image>().sprite = ItemManager.Instance.GetItemDataByName(requirementName).itemIcon;
+        }
+        else if (type == "Animal")
+        {
+            reqItem.transform.GetChild(0).GetComponent<Image>().sprite = AnimalManager.Instance.GetAnimalByName(requirementName).animalIcon;
+        }
+        else if(type == "Gold")
+        {
+            reqItem.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("Icons/GoldIcon");
+        }
 
         reqItem.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = requirementName;
         reqItem.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = $"{currentAmount}/{requiredAmount}";

@@ -6,7 +6,7 @@
       "sellPrice": 10,
       "storageCost": 1,
       "rarity": "Common",
-      "productionName": 0,
+      "productionTime": 0,
 
       "itemName": "Egg",
       "itemDescription": "",
@@ -20,7 +20,7 @@
       "sellPrice": 40,
       "storageCost": 1,
       "rarity": "Common",
-      "productionName": 0,
+      "productionTime": 0,
 
       "itemName": "Milk",
       "itemDescription": "",
@@ -29,12 +29,41 @@
     },
 
     {
+      "baseName": "Wool",
+      "itemID": 2,
+      "sellPrice": 80,
+      "storageCost": 1,
+      "rarity": "Common",
+      "productionTime": 0,
+
+      "itemName": "Wool",
+      "itemDescription": "",
+      "itemPrefabName": "WoolPrefab",
+      "itemIconName": "WoolIcon"
+    },
+
+    {
+      "baseName": "Bacon",
+      "itemID": 3,
+      "sellPrice": 120,
+      "storageCost": 1,
+      "rarity": "Common",
+      "productionTime": 0,
+
+      "itemName": "Bacon",
+      "itemDescription": "",
+      "itemPrefabName": "BaconPrefab",
+      "itemIconName": "BaconIcon"
+    },
+
+
+    {
       "baseName": "Packet Egg",
       "itemID": 10,
-      "sellPrice": 100,
+      "sellPrice": 30,
       "storageCost": 2,
       "rarity": "Common",
-      "productionName": 10,
+      "productionTime": 10,
 
       "itemName": "PackedEgg",
       "itemDescription": "",
@@ -48,7 +77,7 @@
       "sellPrice": 150,
       "storageCost": 3,
       "rarity": "Common",
-      "productionName": 10,
+      "productionTime": 10,
 
       "itemName": "GoldenEgg",
       "itemDescription": "",
@@ -62,7 +91,7 @@
       "sellPrice": 200,
       "storageCost": 3,
       "rarity": "Common",
-      "productionName": 0,
+      "productionTime": 0,
 
       "itemName": "ChocolateBar",
       "itemDescription": "",
@@ -76,7 +105,7 @@
       "sellPrice": 100,
       "storageCost": 3,
       "rarity": "Common",
-      "productionName": 0,
+      "productionTime": 0,
 
 
       "itemName": "Cake",
@@ -91,7 +120,7 @@
       "sellPrice": 100,
       "storageCost": 3,
       "rarity": "Common",
-      "productionName": 0,
+      "productionTime": 0,
 
 
       "itemName": "Beef",
@@ -106,7 +135,7 @@
       "sellPrice": 130,
       "storageCost": 3,
       "rarity": "Common",
-      "productionName": 0,
+      "productionTime": 0,
 
       "itemName": "Flour",
       "itemDescription": "",
@@ -115,12 +144,83 @@
     },
 
     {
+      "baseName": "Cheese",
+      "itemID": 16,
+      "sellPrice": 100,
+      "storageCost": 2,
+      "rarity": "Common",
+      "productionTime": 0,
+
+      "itemName": "Cheese",
+      "itemDescription": "",
+      "itemPrefabName": "CheesePrefab",
+      "itemIconName": "CheeseIcon"
+    },
+
+    {
+      "baseName": "Yogurt",
+      "itemID": 17,
+      "sellPrice": 140,
+      "storageCost": 3,
+      "rarity": "Common",
+      "productionTime": 0,
+
+      "itemName": "Yogurt",
+      "itemDescription": "",
+      "itemPrefabName": "YogurtPrefab",
+      "itemIconName": "YogurtIcon"
+    },
+
+    {
+      "baseName": "Pie",
+      "itemID": 18,
+      "sellPrice": 140,
+      "storageCost": 5,
+      "rarity": "Common",
+      "productionTime": 0,
+
+      "itemName": "Pie",
+      "itemDescription": "",
+      "itemPrefabName": "PiePrefab",
+      "itemIconName": "PieIcon"
+    },
+
+    {
+      "baseName": "Golden Cake",
+      "itemID": 19,
+      "sellPrice": 160,
+      "storageCost": 5,
+      "rarity": "Common",
+      "productionTime": 0,
+
+      "itemName": "GoldenCake",
+      "itemDescription": "",
+      "itemPrefabName": "GoldenCakePrefab",
+      "itemIconName": "GoldenCakeIcon"
+    },
+
+    {
+      "baseName": "Golden Pie",
+      "itemID": 20,
+      "sellPrice": 180,
+      "storageCost": 5,
+      "rarity": "Common",
+      "productionTime": 0,
+
+      "itemName": "GoldenPie",
+      "itemDescription": "",
+      "itemPrefabName": "GoldenPiePrefab",
+      "itemIconName": "GoldenPieIcon"
+    },
+
+
+    {
       "baseName": "Bear",
       "itemID": 20,
       "sellPrice": 100,
       "storageCost": 8,
       "rarity": "Common",
-      "productionName": 0,
+      "productionTime": 0,
 
       "itemName": "Bear",
       "itemDescription": "",

@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|c:\\users\\alprn\\onedrive\\belgeler\\farmfrenzie\\assets\\scripts\\managers\\watermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\watermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|c:\\users\\alprn\\onedrive\\belgeler\\farmfrenzie\\assets\\scripts\\objects\\mobhunger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\mobhunger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\uianimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\uianimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|c:\\users\\alprn\\onedrive\\belgeler\\farmfrenzie\\assets\\scripts\\managers\\watermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\watermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -99,8 +99,12 @@
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\levelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\farmscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\farmscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\farmscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\farmscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\uianimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:assets\\uianimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -110,8 +114,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 0,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MobHunger.cs",
+              "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Objects\\MobHunger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\MobHunger.cs",
+              "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Objects\\MobHunger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Objects\\MobHunger.cs",
+              "ViewState": "AgIAAFsAAAAAAAAAAAAcwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-09T15:38:22.12Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 8,
@@ -211,7 +228,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "WaterManager.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\WaterManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\WaterManager.cs",
@@ -405,7 +422,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 25,
               "Title": "UIAnimator.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\UIAnimator.cs",
               "RelativeDocumentMoniker": "Assets\\UIAnimator.cs",

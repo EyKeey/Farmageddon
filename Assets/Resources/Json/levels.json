@@ -3,7 +3,7 @@
     {
       "level": 1,
       "gold": 100,
-      "animals": [ "Chicken" ],
+      "animals": [ "Chicken", "Cow" ],
       "isLevelCompleted": false,
       "currentStars": 0,
       "winCondition": {
@@ -40,10 +40,6 @@
           {
             "itemName": "Egg",
             "count": 3
-          },
-          {
-            "itemName": "Milk",
-            "count": 1
           }
         ],
         "requiredAnimals": [
@@ -77,10 +73,6 @@
           {
             "itemName": "Egg",
             "count": 3
-          },
-          {
-            "itemName": "Milk",
-            "count": 1
           }
         ],
         "requiredAnimals": [

@@ -14,17 +14,23 @@ public class MobMovement : MonoBehaviour
     private Bounds bounds;
     public bool isMoving;
 
+    private void Awake()
+    {
+        InitializeComponents();
+    }
+
     private void Start()
     {
-
-        InitializeComponents();
+        // Ýlk konumu sýnýr içinde belirle
+        transform.position = GetRandomPointInsideBoundary();
         ChooseNewTarget();
     }
 
     private void OnEnable()
     {
         animator.enabled = true;
-        if (!isMoving) {
+        if (!isMoving)
+        {
             ChooseNewTarget();
         }
     }
@@ -57,7 +63,7 @@ public class MobMovement : MonoBehaviour
         {
             Move(targetPosition);
             CheckTargetReached();
-        }   
+        }
     }
 
     public void Move(Vector2 targetPos)
@@ -101,11 +107,26 @@ public class MobMovement : MonoBehaviour
 
     private void ChooseNewTarget()
     {
-        
-        float randomX = Random.Range(bounds.min.x, bounds.max.x);
-        float randomY = Random.Range(bounds.min.y, bounds.max.y);
-        targetPosition = new Vector2(randomX, randomY);
+        targetPosition = GetRandomPointInsideBoundary();
         isMoving = true;
+    }
+
+    private Vector2 GetRandomPointInsideBoundary()
+    {
+        Vector2 randomPoint;
+        int maxTries = 10; // Sonsuz döngüye girmemesi için maksimum deneme sayýsý
+        int attempts = 0;
+
+        do
+        {
+            float randomX = Random.Range(bounds.min.x, bounds.max.x);
+            float randomY = Random.Range(bounds.min.y, bounds.max.y);
+            randomPoint = new Vector2(randomX, randomY);
+            attempts++;
+        }
+        while (!boundaryArea.OverlapPoint(randomPoint) && attempts < maxTries);
+
+        return randomPoint;
     }
 
     private void LateUpdate()

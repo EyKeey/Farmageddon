@@ -3,7 +3,7 @@
     {
       "inputItems": [ "Egg", "Egg" ],
       "result": "PackedEgg",
-      "productionTime": 15,
+      "productionTime": 10,
       "rarityChances": {
         "Common": 0.8,
         "Uncommon": 0.15,
@@ -18,10 +18,119 @@
       "rarityChances": {
         "Common": 0.8,
         "Uncommon": 0.15,
-        "Rare": 0.05,
-        "Legendary": 0
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "Milk", "Milk" ],
+      "result": "Cheese",
+      "productionTime": 15,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "Milk", "Milk", "Milk" ],
+      "result": "Yogurt",
+      "productionTime": 20,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "Wool", "Wool" ],
+      "result": "Thread",
+      "productionTime": 20,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "Wool", "Wool", "Wool" ],
+      "result": "Cloth",
+      "productionTime": 25,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "Bacon", "Bacon" ],
+      "result": "Meatball",
+      "productionTime": 25,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "Bacon", "Bacon", "Bacon" ],
+      "result": "Beef",
+      "productionTime": 30,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "PackedEgg", "Milk" ],
+      "result": "Cake",
+      "productionTime": 30,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "PackedEgg", "Milk", "Milk" ],
+      "result": "Pie",
+      "productionTime": 35,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "GoldenEgg", "Milk" ],
+      "result": "GoldenCake",
+      "productionTime": 15,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
+      }
+    },
+
+    {
+      "inputItems": [ "GoldenEgg", "Milk", "Milk" ],
+      "result": "GoldenPie",
+      "productionTime": 15,
+      "rarityChances": {
+        "Common": 0.8,
+        "Uncommon": 0.15,
+        "Rare": 0.05
       }
     }
-  
+    
   ]
 }
