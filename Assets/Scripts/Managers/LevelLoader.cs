@@ -44,6 +44,7 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadLevelData()
     {
+        
         if (File.Exists(savePath))
         {
             // Eðer kayýtlý JSON varsa, onu yükle
@@ -83,6 +84,8 @@ public class LevelLoader : MonoBehaviour
         File.WriteAllText(savePath, json);
         Debug.Log("Level verisi kaydedildi: " + savePath);
     }
+
+
     public void LoadLevel(int levelIndex)
     {
         currentLevel = levelIndex;
@@ -91,6 +94,7 @@ public class LevelLoader : MonoBehaviour
         StartCoroutine(LoadLevelAsync("Level"));
 
         LevelData levelInfo = GetCurrentLevelData();
+
         if (levelInfo != null && GameManager.Instance != null)
         {
             StartCoroutine(GameManager.Instance.SetLevel(levelInfo.gold, levelInfo.animals));
@@ -151,11 +155,11 @@ public class LevelLoader : MonoBehaviour
         else
             Debug.LogWarning("Loading screen UI nesnesi atanmadý!");
 
+
         Debug.Log("Yükleme baþladý...");
 
         AsyncOperation operation = SceneManager.LoadSceneAsync(sceneName);
-        operation.allowSceneActivation = false; // Sahne otomatik geçiþ yapmasýn, biz kontrol edelim.
-
+        operation.allowSceneActivation = false; 
         while (operation.progress < 0.9f)
         {
             float progress = Mathf.Clamp01(operation.progress / 0.9f);

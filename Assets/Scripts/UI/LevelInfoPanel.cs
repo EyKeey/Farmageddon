@@ -72,11 +72,14 @@ public class LevelInfoPanel : MonoBehaviour
 
     public void OnStartButoonClicked()
     {
-        
-        LevelLoader.instance.LoadLevel(levelIndex);
-        UIAnimator.Instance.HideBackground();
-        Destroy(gameObject);
-        
+       
+        if(EnergyManager.instance.UseEnergyForLevel())
+        {
+            LevelLoader.instance.LoadLevel(levelIndex);
+            UIAnimator.Instance.HideBackground();
+            Destroy(gameObject);
+        }
+
     }
 
     public void OnCloseButtonClicked()

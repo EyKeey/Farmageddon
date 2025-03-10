@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "EPHUT20A22003219",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 15285,
+        "processId": 12657,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -54,6 +54,36 @@
             "deviceId": "EPHUT20A22003219",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 15285,
+            "exited": false
+        },
+        {
+            "deviceId": "EPHUT20A22003219",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 27454,
+            "exited": false
+        },
+        {
+            "deviceId": "EPHUT20A22003219",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 14788,
+            "exited": false
+        },
+        {
+            "deviceId": "EPHUT20A22003219",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 27459,
+            "exited": false
+        },
+        {
+            "deviceId": "EPHUT20A22003219",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 12672,
+            "exited": false
+        },
+        {
+            "deviceId": "EPHUT20A22003219",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 12657,
             "exited": false
         }
     ],
@@ -138,5 +168,5 @@
             "exited": false
         }
     },
-    "m_AutoScroll": 0
+    "m_AutoScroll": 1
 }

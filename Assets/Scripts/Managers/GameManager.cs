@@ -23,15 +23,14 @@ public class GameManager : MonoBehaviour
         }
 
         //BUILD EDERKEN SILINECEK -ilk  defa açýlýyormuþ gibi davranmasý için var
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
 
-        if (!PlayerPrefs.HasKey("FirstLaunch")) // Eðer kayýtlý deðilse, ilk açýlýþ demektir.
+        if (!PlayerPrefs.HasKey("FirstLaunch")) 
         {
             Debug.Log("Oyun ilk defa açýlýyor!");
 
-            // Ýlk açýlýþ ayarlarýný yap
-            PlayerPrefs.SetInt("FirstLaunch", 1); // Bir daha ilk açýlýþ olmamasý için kaydediyoruz.
-            PlayerPrefs.SetInt("CurrentLevel", 1); // Oyuncunun ilk levelini belirliyoruz.
+            PlayerPrefs.SetInt("FirstLaunch", 1); 
+            PlayerPrefs.SetInt("CurrentLevel", 1); 
             PlayerPrefs.Save();
         }
         else
@@ -99,4 +98,10 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+
+
+    public void OnMenuClick()
+    {
+        LevelLoader.instance.LoadMainScene();
+    }
 }
