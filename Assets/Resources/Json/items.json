@@ -58,14 +58,14 @@
 
 
     {
-      "baseName": "Packet Egg",
+      "baseName": "Packed Egg",
       "itemID": 10,
       "sellPrice": 30,
       "storageCost": 2,
       "rarity": "Common",
       "productionTime": 10,
 
-      "itemName": "PackedEgg",
+      "itemName": "Packed Egg",
       "itemDescription": "",
       "itemPrefabName": "PackedEggPrefab",
       "itemIconName": "PackedEggIcon"
@@ -79,7 +79,7 @@
       "rarity": "Common",
       "productionTime": 10,
 
-      "itemName": "GoldenEgg",
+      "itemName": "Golden Egg",
       "itemDescription": "",
       "itemPrefabName": "GoldenEggPrefab",
       "itemIconName": "GoldenEggIcon"

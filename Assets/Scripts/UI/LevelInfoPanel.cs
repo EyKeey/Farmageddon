@@ -77,11 +77,12 @@ public class LevelInfoPanel : MonoBehaviour
 
     public void OnCloseButtonClicked()
     {
-        StartCoroutine(DestroPanel());
+        StartCoroutine(DestroyPanel());
     }
 
-    public IEnumerator DestroPanel()
+    public IEnumerator DestroyPanel()
     {
+        UIAnimator.Instance.HideBackground();
         UIAnimator.Instance.HideUI(gameObject, 0.3f);
         yield return new WaitForSeconds(0.3f);
         Destroy(gameObject);

@@ -160,7 +160,7 @@ public class ProductionPanel : MonoBehaviour
         }
 
         addedItems.Add(item);
-        InventoryManager.Instance?.RemoveItemFromInventory(item.itemName);
+        InventoryManager.Instance?.RemoveItemFromInventory(item.baseName);
 
         UpdateItemsPanel();
         UpdateSlots();
@@ -171,7 +171,7 @@ public class ProductionPanel : MonoBehaviour
         if (addedItems.Contains(item))
         {
             addedItems.Remove(item);
-            InventoryManager.Instance?.AddItemToInventory(item.itemName);
+            InventoryManager.Instance?.AddItemToInventory(item.baseName);
         }
 
         UpdateItemsPanel();
@@ -199,7 +199,7 @@ public class ProductionPanel : MonoBehaviour
 
     public void OnResultButtonClicked(ItemData item)
     {
-        InventoryManager.Instance.AddItemToInventory(item.itemName);
+        InventoryManager.Instance.AddItemToInventory(item.baseName);
         mergeResultSlot.GetChild(0).gameObject.SetActive(false);
 
         UpdateItemsPanel();

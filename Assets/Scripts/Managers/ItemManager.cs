@@ -36,7 +36,7 @@ public class ItemManager : MonoBehaviour
         string newItemName = rarity + " " + itemName;
 
 
-        ItemData existingItem = allItems.Find(item => item.itemName == newItemName);
+        ItemData existingItem = allItems.Find(item => item.baseName == newItemName);
         if (existingItem != null)
         {
             return newItemName;
@@ -44,12 +44,12 @@ public class ItemManager : MonoBehaviour
 
         ItemData newItem = new ItemData
         {
-            baseName = itemData.baseName,
+            baseName = newItemName,
             itemID = itemData.itemID,
             sellPrice = itemData.sellPrice,
             storageCost = itemData.storageCost,
             rarity = rarity,
-            itemName = newItemName,
+            itemName = itemData.itemName,
             itemDescription = itemData.itemDescription,
             itemPrefab = itemData.itemPrefab,
             itemIcon = itemData.itemIcon
@@ -65,7 +65,7 @@ public class ItemManager : MonoBehaviour
     {
         foreach (ItemData item in allItems)
         {
-            if (item.itemName.Equals(name))
+            if (item.baseName.Equals(name))
             {
                 return item;
             }

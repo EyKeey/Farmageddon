@@ -1,3 +1,4 @@
+using DG.Tweening;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -14,6 +15,10 @@ public class LevelButton : MonoBehaviour
     private Button button;
     public GameObject levelInfoPanelPrefab;
     private bool isCompleted;
+    public Image glowImage;
+    public Transform darkBg;
+
+    private Tween pulseTween;
 
     public Sprite completedLevel;
     public Sprite currentLevel;
@@ -27,6 +32,7 @@ public class LevelButton : MonoBehaviour
         
         levelText = GetComponentInChildren<TextMeshProUGUI>();
         levelText.text = levelIndex.ToString();
+        glowImage.gameObject.SetActive(false);
 
         SetUI();
     }
@@ -46,7 +52,17 @@ public class LevelButton : MonoBehaviour
             if (PlayerPrefs.GetInt("CurrentLevel") == levelInfo.level)
             {
                 //eðer henüz tamamlanmamýþsa ve þu anki levelse
-                image.sprite = currentLevel;
+                image.sprite = completedLevel;
+
+                glowImage.gameObject.SetActive(true);
+                glowImage.color = new Color(1,1,1,0);
+
+                glowImage.DOFade(1f, 0.4f);
+
+                pulseTween = glowImage.rectTransform
+                    .DOScale(1.4f, 1f)
+                    .SetLoops(-1, LoopType.Yoyo)
+                    .SetEase(Ease.InOutSine);
             }
             else
             {
@@ -67,6 +83,8 @@ public class LevelButton : MonoBehaviour
             GameObject levelInfoPanel = Instantiate(levelInfoPanelPrefab, canvas.transform);
             levelInfoPanel.GetComponent<LevelInfoPanel>().levelIndex = levelIndex;
             UIAnimator.Instance.ShowUI(levelInfoPanel, 0.3f);
+            UIAnimator.Instance.darkBackground = darkBg;
+            UIAnimator.Instance.ShowBackground();
         }
 
     }

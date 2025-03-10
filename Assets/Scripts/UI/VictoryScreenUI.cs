@@ -11,7 +11,8 @@ public class VictoryScreenUI : MonoBehaviour
 
     public void UpdateStars(int stars)
     {
-        int starScore = 2;
+        Debug.Log(stars);
+        int starScore = stars;
 
         for (int i = 0; i < starScore; i++)
         {
