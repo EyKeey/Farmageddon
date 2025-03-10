@@ -55,7 +55,7 @@ public class DeliveryPanel : MonoBehaviour
         for (int i = 0; i < itemsToDisplay; i++)
         {
             var item = addedItems.ElementAt(i);
-            if (item.Value > 0)
+                if (item.Value > 0)
             {
                 foreach (Transform child in truckGroup[i])
                 {
@@ -93,7 +93,7 @@ public class DeliveryPanel : MonoBehaviour
     private void onRemoveButtonPressed(ItemData item)
     {
         addedItems[item]--;
-        InventoryManager.Instance.AddItemToInventory(item.itemName);
+        InventoryManager.Instance.AddItemToInventory(item.baseName);
         if (addedItems[item] == 0)
         {
             addedItems.Remove(item);
@@ -125,12 +125,15 @@ public class DeliveryPanel : MonoBehaviour
 
     public void OnAddButtonPressed(ItemData item)
     {
-        Debug.Log(item.itemName);
-        // Eðer truckGroup'daki slotlar doluysa, item ekleme
+
+        
         if (addedItems.Count >= truckGroup.Count)
         {
-            Debug.Log("Truck slots are full. Cannot add more items.");
-            return; // Slotlar dolu, iþlemi sonlandýr
+            if (!addedItems.ContainsKey(item))
+            {
+                Debug.Log("Truck slots are full. Cannot add more items.");
+                return; // Slotlar dolu, iþlemi sonlandýr
+            }
         }
 
         // Eðer item zaten eklenmiþse ve sayýsý 10'dan azsa, sayýsýný artýr
@@ -153,7 +156,7 @@ public class DeliveryPanel : MonoBehaviour
         }
 
         // Storage'den item kaldýr
-        InventoryManager.Instance.RemoveItemFromInventory(item.itemName);
+        InventoryManager.Instance.RemoveItemFromInventory(item.baseName);
 
         // UI'ý güncelle
         ResetAllUI();
@@ -177,9 +180,10 @@ public class DeliveryPanel : MonoBehaviour
         UIAnimator.Instance.HideUI(gameObject, 0.3f);
         UIAnimator.Instance.HideBackground();
 
-        ResetAllUI();
         UpdateInventoryUI();
         UpdateTruckUI();
+        ResetAllUI();
+        
 
         truck.StartDelivery(amount);
     }
