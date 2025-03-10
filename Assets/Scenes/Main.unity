@@ -214,7 +214,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &19108009
 RectTransform:
   m_ObjectHideFlags: 0
@@ -647,7 +647,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   darkBackground: {fileID: 19108009}
-  LogPrefab: {fileID: 0}
+  LogPrefab: {fileID: 8531332507749555275, guid: 74128cd1bbb929e45958deb655003b71, type: 3}
 --- !u!4 &301453193
 Transform:
   m_ObjectHideFlags: 0
@@ -1322,7 +1322,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.41509432, g: 0.3428512, b: 0.1977572, a: 1}
+  m_Color: {r: 0.7924528, g: 0.64914113, b: 0.3700605, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1785,6 +1785,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1505718492}
   m_CullTransparentMesh: 1
+--- !u!224 &1585299456 stripped
+RectTransform:
+  m_CorrespondingSourceObject: {fileID: 242936159948032919, guid: 9a4da0c74bf65b140b54264b0a9605cc, type: 3}
+  m_PrefabInstance: {fileID: 1143315560030156643}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1640054903
 GameObject:
   m_ObjectHideFlags: 0
@@ -2045,7 +2050,6 @@ GameObject:
   - component: {fileID: 1975783793}
   - component: {fileID: 1975783796}
   - component: {fileID: 1975783795}
-  - component: {fileID: 1975783794}
   m_Layer: 5
   m_Name: Topbar
   m_TagString: Untagged
@@ -2073,19 +2077,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 200}
   m_Pivot: {x: 0.5, y: 1}
---- !u!114 &1975783794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1975783792}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 696f5f54218b1124885e5eda043f9ff8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  isTopBar: 0
 --- !u!114 &1975783795
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2252,6 +2243,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 460107776}
     m_Modifications:
+    - target: {fileID: 3054959548739977593, guid: 9a4da0c74bf65b140b54264b0a9605cc, type: 3}
+      propertyPath: darkBg
+      value: 
+      objectReference: {fileID: 19108009}
+    - target: {fileID: 3054959548739977593, guid: 9a4da0c74bf65b140b54264b0a9605cc, type: 3}
+      propertyPath: starPanel
+      value: 
+      objectReference: {fileID: 1585299456}
+    - target: {fileID: 3054959548739977593, guid: 9a4da0c74bf65b140b54264b0a9605cc, type: 3}
+      propertyPath: starPrefab
+      value: 
+      objectReference: {fileID: 3411446625578689328, guid: 99ddbf3bfaba3e146b1364502d8224d4, type: 3}
     - target: {fileID: 3129217644685367269, guid: 9a4da0c74bf65b140b54264b0a9605cc, type: 3}
       propertyPath: m_Name
       value: LevelButton

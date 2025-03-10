@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.VFX;
+using static Cinemachine.DocumentationSortingAttribute;
 
 public class GameManager : MonoBehaviour
 {
@@ -62,13 +63,16 @@ public class GameManager : MonoBehaviour
 
         if (!levelInfo.isLevelCompleted)
         {
-            LevelLoader.instance.MarkLevelAsCompleted(levelInfo.level);
+            LevelLoader.instance.MarkLevelAsCompleted(levelInfo.level, stars);
             PlayerPrefs.SetInt("CurrentLevel", levelInfo.level + 1);
         }
         else
         {
-            return;
             //Eðer öncekinden daha çok yýldýz alýndýysa yýldýzlarý güncelle
+            if (levelInfo.currentStars > stars)
+            {
+                levelInfo.currentStars = stars;
+            }
         }
     }
 

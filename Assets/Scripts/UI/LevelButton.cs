@@ -11,19 +11,25 @@ public class LevelButton : MonoBehaviour
 {
     public int levelIndex;
 
-    private TextMeshProUGUI levelText;
-    private Button button;
+    [Header("Required Components")]
     public GameObject levelInfoPanelPrefab;
-    private bool isCompleted;
     public Image glowImage;
     public Transform darkBg;
+    public Transform starPanel;
 
-    private Tween pulseTween;
-
+    [Header("Button Icon Sprites")]
     public Sprite completedLevel;
     public Sprite currentLevel;
     public Sprite lockedLevel;
     public Sprite bossLevel;
+
+    [Header("Prefabs")]
+    public GameObject starPrefab;
+
+    private TextMeshProUGUI levelText;
+    private Button button;
+    private bool isCompleted;
+    private Tween pulseTween;
 
     private void Start()
     {
@@ -41,11 +47,24 @@ public class LevelButton : MonoBehaviour
     {
         LevelData levelInfo = LevelLoader.instance.GetSpesificLevelData(levelIndex);
         Image image = GetComponent<Image>();
+        
         if(levelInfo.isLevelCompleted)
         {
             //eðer tamamlanmýþsa
             isCompleted = true;
             image.sprite = completedLevel;
+            
+
+            foreach(Transform child in starPanel)
+            {
+                Destroy(child);
+            }
+
+            for (int i = 0; i <= levelInfo.currentStars - 1; i++)
+            {
+                Instantiate(starPrefab, starPanel);
+            }
+
         }
         else
         {

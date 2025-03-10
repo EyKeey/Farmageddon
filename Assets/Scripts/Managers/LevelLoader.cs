@@ -87,7 +87,8 @@ public class LevelLoader : MonoBehaviour
     {
         currentLevel = levelIndex;
 
-        SceneManager.LoadScene("Level");
+        //SceneManager.LoadScene("Level");
+        StartCoroutine(LoadLevelAsync("Level"));
 
         LevelData levelInfo = GetCurrentLevelData();
         if (levelInfo != null && GameManager.Instance != null)
@@ -104,7 +105,7 @@ public class LevelLoader : MonoBehaviour
 
     public void LoadMainScene()
     {
-        SceneManager.LoadScene(0);
+        StartCoroutine(LoadLevelAsync("Main"));
     }
 
     public LevelData GetCurrentLevelData()
@@ -185,13 +186,14 @@ public class LevelLoader : MonoBehaviour
             loadingScreen.SetActive(false);
     }
 
-    public void MarkLevelAsCompleted(int levelIndex)
+    public void MarkLevelAsCompleted(int levelIndex, int stars)
     {
         LevelData level = levels.Find(l => l.level == levelIndex);
 
         if (level != null)
         {
             level.isLevelCompleted = true; // Level tamamlandý olarak iþaretleniyor
+            level.currentStars = stars;
             SaveLevelData(); //JSON'a kaydet
             Debug.Log("Level " + levelIndex + " tamamlandý!");
         }
