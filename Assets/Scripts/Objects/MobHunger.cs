@@ -6,6 +6,7 @@ public class MobHunger : MonoBehaviour
     public float eatingTime = 10f;
     public float hungerCooldown = 10f;
     public float moveSpeed;
+    public float maxHungerTime = 10f;   
 
     [SerializeField] private Animator animator;
     [SerializeField] private MobMovement mobMovement;
@@ -13,17 +14,19 @@ public class MobHunger : MonoBehaviour
     private bool isHungry;
     private bool isEating;
     private float lastEatTime = 0;
+    private float hungerStartTime = 0;
     private GameObject chosenGrass;
 
     private void Start()
     {
-        lastEatTime += Time.time - 5;
+        lastEatTime = Time.time - 5;
         moveSpeed = mobMovement.moveSpeed;
+        SetHungry();
     }
 
     private void Update()
     {
-        if (Time.time - lastEatTime > hungerCooldown)
+        if (Time.time - lastEatTime > hungerCooldown && !isHungry)
         {
             SetHungry();
         }
@@ -32,10 +35,14 @@ public class MobHunger : MonoBehaviour
 
         if (isHungry)
         {
-            if (Time.time > lastEatTime + eatingTime)
+            
+            if (Time.time - hungerStartTime > maxHungerTime)
             {
-                HandleHunger();
+                gameObject.GetComponent<MobMovement>().StartDieAnimation();
+                return;
             }
+
+            HandleHunger();
         }
     }
 
@@ -59,7 +66,6 @@ public class MobHunger : MonoBehaviour
         }
         else
         {
-            isHungry = false;
             mobMovement.isMoving = true;
         }
     }
@@ -70,13 +76,11 @@ public class MobHunger : MonoBehaviour
 
         if (grasses.Length > 0)
         {
-            // Rastgele bir çim seç
             int randomIndex = Random.Range(0, grasses.Length);
             chosenGrass = grasses[randomIndex];
         }
         else
         {
-            Debug.LogWarning("No grass found in the scene!");
             chosenGrass = null;
         }
     }
@@ -117,10 +121,14 @@ public class MobHunger : MonoBehaviour
     public void SetHungry()
     {
         isHungry = true;
+        hungerStartTime = Time.time;
+        
     }
 
     public bool IsEating()
     {
         return isEating;
     }
+
+    
 }

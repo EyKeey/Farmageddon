@@ -3,16 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|c:\\users\\alprn\\onedrive\\belgeler\\farmfrenzie\\assets\\scripts\\ui\\levelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|c:\\users\\alprn\\onedrive\\belgeler\\farmfrenzie\\assets\\scripts\\managers\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\levelrequi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\levelrequi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\energymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\energymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\levelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\levelbutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\items.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Resources\\Json\\items.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\objects\\collectableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\collectableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\levelinfopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\levelinfopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\shippingscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\shippingscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\victorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\victorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\victoryscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\victoryscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\seedtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\seedtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\mergemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\mergemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\levels.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Resources\\Json\\levels.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\watermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\watermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\recipes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Resources\\Json\\recipes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\items.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Resources\\Json\\items.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\mergerecipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,16 +87,8 @@
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\productionpanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\inventorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\itemmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\recipes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Resources\\Json\\recipes.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\objects\\mobhunger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -43,28 +99,12 @@
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\seedloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\shippingscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\shippingscreenui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\itemdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\levels.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\Resources\\Json\\levels.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\victorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\victorymanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\levelrequi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\levelrequi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\spawnmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -83,36 +123,12 @@
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\mobmovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\watermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\watermanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\seedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\seedmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\objects\\collectableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\collectableitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\objects\\animalhunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\animalhunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\seedtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\seedtype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\levelinfopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\levelinfopanel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\timer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\openanimalmenubutton.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -134,11 +150,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 26,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 4,
+              "Title": "EnergyManager.cs",
+              "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\EnergyManager.cs",
+              "RelativeDocumentMoniker": "Assets\\EnergyManager.cs",
+              "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\EnergyManager.cs",
+              "RelativeToolTip": "Assets\\EnergyManager.cs",
+              "ViewState": "AgIAAJUAAAAAAAAAAAA7wKgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T13:13:45.078Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LevelLoader.cs",
+              "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\LevelLoader.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\LevelLoader.cs",
+              "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\LevelLoader.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\LevelLoader.cs",
+              "ViewState": "AgIAAKwAAAAAAAAAAAAswNEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T09:48:34.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAIwDAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:57:53.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "VictoryScreenUI.cs",
+              "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\VictoryScreenUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\VictoryScreenUI.cs",
+              "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\VictoryScreenUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\VictoryScreenUI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA0AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-10T08:57:00.326Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
               "Title": "ItemManager.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\ItemManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\ItemManager.cs",
@@ -150,7 +216,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 25,
               "Title": "ItemData.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\ItemData.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ItemData.cs",
@@ -162,32 +228,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 3,
               "Title": "LevelReqUI.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\LevelReqUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LevelReqUI.cs",
               "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\LevelReqUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\LevelReqUI.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAiwEsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADMAAACKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-09T17:49:33.999Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "levels.json",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\levels.json",
               "RelativeDocumentMoniker": "Assets\\Resources\\Json\\levels.json",
               "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\levels.json",
               "RelativeToolTip": "Assets\\Resources\\Json\\levels.json",
-              "ViewState": "AgIAAF8AAAAAAAAAAAAAAGAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-09T17:10:52.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T17:10:52.56Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 29,
               "Title": "MobMovement.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Objects\\MobMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\MobMovement.cs",
@@ -199,7 +264,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 22,
               "Title": "MobHunger.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Objects\\MobHunger.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\MobHunger.cs",
@@ -211,7 +276,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 18,
               "Title": "items.json",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\items.json",
               "RelativeDocumentMoniker": "Assets\\Resources\\Json\\items.json",
@@ -219,12 +284,11 @@
               "RelativeToolTip": "Assets\\Resources\\Json\\items.json",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAFEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-09T14:43:35.74Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T14:43:35.74Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 31,
               "Title": "AnimalHunt.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Objects\\AnimalHunt.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\AnimalHunt.cs",
@@ -236,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 12,
               "Title": "SeedType.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\SeedType.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\SeedType.cs",
@@ -248,7 +312,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 23,
               "Title": "SeedLoader.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\SeedLoader.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SeedLoader.cs",
@@ -260,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 30,
               "Title": "SeedManager.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\SeedManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SeedManager.cs",
@@ -272,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 33,
               "Title": "FarmScreen.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\FarmScreen.cs",
               "RelativeDocumentMoniker": "Assets\\FarmScreen.cs",
@@ -280,12 +344,11 @@
               "RelativeToolTip": "Assets\\FarmScreen.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAqwDkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-08T16:13:13.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-08T16:13:13.98Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 26,
               "Title": "SpawnManager.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\SpawnManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\SpawnManager.cs",
@@ -297,7 +360,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 2,
               "Title": "InputManager.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\InputManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\InputManager.cs",
@@ -309,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 16,
               "Title": "WaterManager.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\WaterManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\WaterManager.cs",
@@ -321,7 +384,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 27,
               "Title": "SafeAreaUI.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\SafeAreaUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\SafeAreaUI.cs",
@@ -333,7 +396,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 7,
               "Title": "CollectableItem.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Objects\\CollectableItem.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Objects\\CollectableItem.cs",
@@ -345,19 +408,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 15,
               "Title": "Timer.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\Timer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\Timer.cs",
               "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\Timer.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\Timer.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAA9wDwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAowDwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T13:16:40.385Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 19,
               "Title": "MergeRecipes.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\MergeRecipes.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MergeRecipes.cs",
@@ -369,20 +432,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 17,
               "Title": "recipes.json",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\recipes.json",
               "RelativeDocumentMoniker": "Assets\\Resources\\Json\\recipes.json",
               "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Resources\\Json\\recipes.json",
               "RelativeToolTip": "Assets\\Resources\\Json\\recipes.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-06T12:09:51.271Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T12:09:51.271Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 13,
               "Title": "MergeManager.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\MergeManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\MergeManager.cs",
@@ -394,13 +456,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 10,
               "Title": "VictoryManager.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\VictoryManager.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\VictoryManager.cs",
               "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\VictoryManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\VictoryManager.cs",
-              "ViewState": "AgIAACQAAAAAAAAAAAAqwGwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAIwIAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T10:35:31.139Z"
             },
@@ -412,25 +474,25 @@
               "RelativeDocumentMoniker": "Assets\\Scripts\\Managers\\InventoryManager.cs",
               "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\Managers\\InventoryManager.cs",
               "RelativeToolTip": "Assets\\Scripts\\Managers\\InventoryManager.cs",
-              "ViewState": "AgIAADwAAAAAAAAAAAAuwF0AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAswEAAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T10:16:22.014Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "ShippingScreenUI.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\ShippingScreenUI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ShippingScreenUI.cs",
               "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\ShippingScreenUI.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\ShippingScreenUI.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAowFsAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T09:48:57.403Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 32,
               "Title": "OpenAnimalMenuButton.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\OpenAnimalMenuButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\OpenAnimalMenuButton.cs",
@@ -442,32 +504,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 8,
               "Title": "LevelInfoPanel.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\LevelInfoPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LevelInfoPanel.cs",
               "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\LevelInfoPanel.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\LevelInfoPanel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-06T05:03:04.532Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "LevelButton.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\LevelButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\LevelButton.cs",
               "ToolTip": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\LevelButton.cs",
               "RelativeToolTip": "Assets\\Scripts\\UI\\LevelButton.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAYwB4AAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAnwGYAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T05:02:05.529Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T05:02:05.529Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 20,
               "Title": "ProductionPanel.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\ProductionPanel.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ProductionPanel.cs",
@@ -479,7 +540,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 28,
               "Title": "ProductionButton.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\ProductionButton.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\ProductionButton.cs",
@@ -491,7 +552,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 24,
               "Title": "Truck.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\Scripts\\UI\\Truck.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\Truck.cs",
@@ -503,7 +564,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 34,
               "Title": "UIAnimator.cs",
               "DocumentMoniker": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\Assets\\UIAnimator.cs",
               "RelativeDocumentMoniker": "Assets\\UIAnimator.cs",
@@ -511,8 +572,7 @@
               "RelativeToolTip": "Assets\\UIAnimator.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAQwEcAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T04:26:16.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T04:26:16.739Z"
             }
           ]
         }

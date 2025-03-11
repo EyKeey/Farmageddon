@@ -100,10 +100,10 @@ public class AnimalHunt : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Animal") && !isCatched)
         {
-            Mob mob = collision.gameObject.GetComponent<Mob>();
+            MobMovement mob = collision.gameObject.GetComponent<MobMovement>();
             if (mob != null)
             {
-                mob.Die();
+                mob.StartDieAnimation();
             }
             else
             {

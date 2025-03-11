@@ -49,6 +49,7 @@ public class LevelLoader : MonoBehaviour
         {
             // Eðer kayýtlý JSON varsa, onu yükle
             string json = File.ReadAllText(savePath);
+            Debug.Log(json);
             LevelList levelList = JsonConvert.DeserializeObject<LevelList>(json);
             foreach(var level in levelList.levels)
             {
@@ -80,7 +81,9 @@ public class LevelLoader : MonoBehaviour
 
     public void SaveLevelData()
     {
-        string json = JsonConvert.SerializeObject(levels, Formatting.Indented);
+        LevelList wrapper = new LevelList();
+        wrapper.levels = levels;
+        string json = JsonConvert.SerializeObject(wrapper, Formatting.Indented);
         File.WriteAllText(savePath, json);
         Debug.Log("Level verisi kaydedildi: " + savePath);
     }

@@ -23,8 +23,8 @@
         "requiredGold": 0
       },
       "starTimes": {
-        "threeStars": 90,
-        "twoStars": 240,
+        "threeStars": 60,
+        "twoStars": 120,
         "oneStar": 9999
       }
     },

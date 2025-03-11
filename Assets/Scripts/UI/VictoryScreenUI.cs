@@ -14,6 +14,12 @@ public class VictoryScreenUI : MonoBehaviour
         Debug.Log(stars);
         int starScore = stars;
 
+        for (int i = 0; i < Stars.childCount; i++)
+        {
+            Stars.GetChild(i).gameObject.GetComponent<Image>().color = Color.black;
+        }
+
+
         for (int i = 0; i < starScore; i++)
         {
             Stars.GetChild(i).gameObject.GetComponent<Image>().color = Color.white;

@@ -99,6 +99,12 @@ public class MobMovement : MonoBehaviour
         }
     }
 
+    public void StartDieAnimation()
+    {
+        Stopped();
+        animator.SetTrigger("Die");
+    }
+
     public void Stopped()
     {
         isMoving = false;

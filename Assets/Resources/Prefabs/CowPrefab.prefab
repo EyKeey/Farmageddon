@@ -175,6 +175,7 @@ MonoBehaviour:
   eatingTime: 10
   hungerCooldown: 10
   moveSpeed: 0
+  maxHungerTime: 15
   animator: {fileID: 6469878035550498504}
   mobMovement: {fileID: 7589034245598489212}
 --- !u!114 &7589034245598489212

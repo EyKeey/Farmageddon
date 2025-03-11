@@ -19,7 +19,7 @@ public class LevelData
 [System.Serializable]
 public class LevelList
 {
-    public LevelData[] levels;
+    public List<LevelData> levels;
 }
 
 [System.Serializable]
