@@ -2,16 +2,13 @@
   "levels": [
     {
       "level": 1,
-      "gold": 100,
-      "animals": [ "Chicken", "Cow" ],
+      "gold": 200,
+      "animals": [],
       "isLevelCompleted": false,
       "currentStars": 0,
       "winCondition": {
         "requiredItems": [
-          {
-            "itemName": "Egg",
-            "count": 3
-          }
+
         ],
         "requiredAnimals": [
           {
@@ -31,29 +28,25 @@
 
     {
       "level": 2,
-      "gold": 300,
-      "animals": [ "Chicken", "Chicken" ],
+      "gold": 150,
+      "animals": [ "Chicken" ],
       "isLevelCompleted": false,
       "currentStars": 0,
       "winCondition": {
         "requiredItems": [
           {
             "itemName": "Egg",
-            "count": 3
+            "count": 8
           }
         ],
         "requiredAnimals": [
           {
             "animalName": "Chicken",
-            "count": 3
-          },
-          {
-            "animalName": "Cow",
-            "count": 1
+            "count": 5
           }
         ],
         "catchedBears": 0,
-        "requiredGold": 200
+        "requiredGold": 0
       },
       "starTimes": {
         "threeStars": 90,
@@ -64,29 +57,22 @@
 
     {
       "level": 3,
-      "gold": 300,
-      "animals": [ "Chicken", "Chicken" ],
+      "gold": 200,
+      "animals": [],
       "isLevelCompleted": false,
       "currentStars": 0,
       "winCondition": {
         "requiredItems": [
           {
-            "itemName": "Egg",
-            "count": 3
+            "itemName": "Packed Egg",
+            "count": 5
           }
         ],
         "requiredAnimals": [
-          {
-            "animalName": "Chicken",
-            "count": 3
-          },
-          {
-            "animalName": "Cow",
-            "count": 1
-          }
+
         ],
         "catchedBears": 0,
-        "requiredGold": 200
+        "requiredGold": 0
       },
       "starTimes": {
         "threeStars": 90,
@@ -97,33 +83,21 @@
 
     {
       "level": 4,
-      "gold": 300,
-      "animals": [ "Chicken", "Chicken" ],
+      "gold": 200,
+      "animals": [ "Chicken" ],
       "isLevelCompleted": false,
       "currentStars": 0,
       "winCondition": {
         "requiredItems": [
           {
-            "itemName": "Egg",
+            "itemName": "Golden Egg",
             "count": 3
-          },
-          {
-            "itemName": "Milk",
-            "count": 1
           }
         ],
         "requiredAnimals": [
-          {
-            "animalName": "Chicken",
-            "count": 3
-          },
-          {
-            "animalName": "Cow",
-            "count": 1
-          }
         ],
         "catchedBears": 0,
-        "requiredGold": 200
+        "requiredGold": 700
       },
       "starTimes": {
         "threeStars": 90,
@@ -134,33 +108,22 @@
 
     {
       "level": 5,
-      "gold": 300,
+      "gold": 100,
       "animals": [ "Chicken", "Chicken" ],
       "isLevelCompleted": false,
       "currentStars": 0,
       "winCondition": {
         "requiredItems": [
-          {
-            "itemName": "Egg",
-            "count": 3
-          },
-          {
-            "itemName": "Milk",
-            "count": 1
-          }
+
         ],
         "requiredAnimals": [
           {
             "animalName": "Chicken",
-            "count": 3
-          },
-          {
-            "animalName": "Cow",
-            "count": 1
+            "count": 10
           }
         ],
         "catchedBears": 0,
-        "requiredGold": 200
+        "requiredGold": 0
       },
       "starTimes": {
         "threeStars": 90,
@@ -171,7 +134,7 @@
 
     {
       "level": 6,
-      "gold": 300,
+      "gold": 400,
       "animals": [ "Chicken", "Chicken" ],
       "isLevelCompleted": false,
       "currentStars": 0,
@@ -179,25 +142,17 @@
         "requiredItems": [
           {
             "itemName": "Egg",
-            "count": 3
-          },
-          {
-            "itemName": "Milk",
-            "count": 1
+            "count": 15
           }
         ],
         "requiredAnimals": [
-          {
-            "animalName": "Chicken",
-            "count": 3
-          },
           {
             "animalName": "Cow",
             "count": 1
           }
         ],
         "catchedBears": 0,
-        "requiredGold": 200
+        "requiredGold": 0
       },
       "starTimes": {
         "threeStars": 90,
@@ -208,33 +163,103 @@
 
     {
       "level": 7,
-      "gold": 300,
-      "animals": [ "Chicken", "Chicken" ],
+      "gold": 150,
+      "animals": [ "Cow" ],
+      "isLevelCompleted": false,
+      "currentStars": 0,
+      "winCondition": {
+        "requiredItems": [
+          {
+            "itemName": "Cheese",
+            "count": 3
+          }
+        ],
+        "requiredAnimals": [
+          {
+            "animalName": "Chicken",
+            "count": 5
+          }
+        ],
+        "catchedBears": 0,
+        "requiredGold": 0
+      },
+      "starTimes": {
+        "threeStars": 90,
+        "twoStars": 240,
+        "oneStar": 9999
+      }
+    },
+
+    {
+      "level": 8,
+      "gold": 150,
+      "animals": [ "Cow" ],
+      "isLevelCompleted": false,
+      "currentStars": 0,
+      "winCondition": {
+        "requiredItems": [
+          {
+            "itemName": "Milk",
+            "count": 10
+          }
+        ],
+        "requiredAnimals": [
+
+        ],
+        "catchedBears": 0,
+        "requiredGold": 2000
+      },
+      "starTimes": {
+        "threeStars": 90,
+        "twoStars": 240,
+        "oneStar": 9999
+      }
+    },
+
+    {
+      "level": 9,
+      "gold": 200,
+      "animals": [ "Chicken", "Chicken", "Chicken" ],
+      "isLevelCompleted": false,
+      "currentStars": 0,
+      "winCondition": {
+        "requiredItems": [
+
+        ],
+        "requiredAnimals": [
+          {
+            "animalName": "Cow",
+            "count": 3
+          }
+        ],
+        "catchedBears": 0,
+        "requiredGold": 0
+      },
+      "starTimes": {
+        "threeStars": 90,
+        "twoStars": 240,
+        "oneStar": 9999
+      }
+    },
+
+    {
+      "level": 10,
+      "gold": 500,
+      "animals": [ ],
       "isLevelCompleted": false,
       "currentStars": 0,
       "winCondition": {
         "requiredItems": [
           {
             "itemName": "Egg",
-            "count": 3
-          },
-          {
-            "itemName": "Milk",
-            "count": 1
+            "count": 30
           }
         ],
         "requiredAnimals": [
-          {
-            "animalName": "Chicken",
-            "count": 3
-          },
-          {
-            "animalName": "Cow",
-            "count": 1
-          }
+          
         ],
         "catchedBears": 0,
-        "requiredGold": 200
+        "requiredGold": 5000
       },
       "starTimes": {
         "threeStars": 90,
@@ -243,6 +268,6 @@
       }
     }
 
-      
-    ]
+
+  ]
 }

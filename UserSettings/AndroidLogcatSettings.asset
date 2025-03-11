@@ -3,7 +3,7 @@
     "m_SelectedProcess": {
         "deviceId": "EPHUT20A22003219",
         "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 30307,
+        "processId": 16955,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -90,6 +90,12 @@
             "deviceId": "EPHUT20A22003219",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 30307,
+            "exited": false
+        },
+        {
+            "deviceId": "EPHUT20A22003219",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 16955,
             "exited": false
         }
     ],

@@ -3,7 +3,7 @@
   "WorkspaceRootPath": "C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|c:\\users\\alprn\\onedrive\\belgeler\\farmfrenzie\\assets\\scripts\\ui\\uianimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\ui\\uianimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\uianimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -23,7 +23,7 @@
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\objects\\animalhunt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|c:\\users\\alprn\\onedrive\\belgeler\\farmfrenzie\\assets\\scripts\\managers\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\managers\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\levelloader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -51,7 +51,7 @@
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\managers\\inputmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|c:\\users\\alprn\\onedrive\\belgeler\\farmfrenzie\\assets\\scripts\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|C:\\Users\\alprn\\OneDrive\\Belgeler\\FarmFrenzie\\assets\\scripts\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D476411-CCCB-C5B0-6FBA-A4AFAEA2DF2D}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\leveldata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -183,8 +183,7 @@
               "RelativeToolTip": "Assets\\Scripts\\LevelData.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:02:16.598Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T10:02:16.598Z"
             },
             {
               "$type": "Document",
@@ -208,8 +207,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Managers\\LevelLoader.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T09:48:34.897Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T09:48:34.897Z"
             },
             {
               "$type": "Document",
@@ -221,8 +219,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Managers\\GameManager.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T08:57:53.607Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T08:57:53.607Z"
             },
             {
               "$type": "Document",
@@ -234,8 +231,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\VictoryScreenUI.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAABSAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T08:57:00.326Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-10T08:57:00.326Z"
             },
             {
               "$type": "Document",
@@ -296,8 +292,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Objects\\MobMovement.cs",
               "ViewState": "AgIAADMAAAAAAAAAAAAiwGgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T15:55:23.411Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T15:55:23.411Z"
             },
             {
               "$type": "Document",
@@ -309,8 +304,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Objects\\MobHunger.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T15:38:22.12Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T15:38:22.12Z"
             },
             {
               "$type": "Document",
@@ -322,7 +316,8 @@
               "RelativeToolTip": "Assets\\Resources\\Json\\items.json",
               "ViewState": "AgIAAEUAAAAAAAAAAAAAAFEAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-09T14:43:35.74Z"
+              "WhenOpened": "2025-03-09T14:43:35.74Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -334,8 +329,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Objects\\AnimalHunt.cs",
               "ViewState": "AgIAAE0AAAAAAAAAAAAswHIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-09T14:42:49.35Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-09T14:42:49.35Z"
             },
             {
               "$type": "Document",
@@ -407,8 +401,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Managers\\InputManager.cs",
               "ViewState": "AgIAACEAAAAAAAAAAAArwDQAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-07T08:10:30.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-07T08:10:30.804Z"
             },
             {
               "$type": "Document",
@@ -432,8 +425,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\SafeAreaUI.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAswDYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T13:39:41.75Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T13:39:41.75Z"
             },
             {
               "$type": "Document",
@@ -481,7 +473,8 @@
               "RelativeToolTip": "Assets\\Resources\\Json\\recipes.json",
               "ViewState": "AgIAAA8AAAAAAAAAAAAAAAEAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-06T12:09:51.271Z"
+              "WhenOpened": "2025-03-06T12:09:51.271Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -505,8 +498,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Managers\\VictoryManager.cs",
               "ViewState": "AgIAAGYAAAAAAAAAAAAwwIAAAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T10:35:31.139Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T10:35:31.139Z"
             },
             {
               "$type": "Document",
@@ -578,8 +570,7 @@
               "RelativeToolTip": "Assets\\Scripts\\UI\\ProductionPanel.cs",
               "ViewState": "AgIAADkAAAAAAAAAAAAnwMkAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-06T04:59:54.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-06T04:59:54.106Z"
             },
             {
               "$type": "Document",

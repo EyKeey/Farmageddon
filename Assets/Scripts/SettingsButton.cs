@@ -16,5 +16,10 @@ public class SettingsButton : MonoBehaviour
         UIAnimator.Instance.ShowBackground();
     }
 
+    public void OnCloseClick()
+    {
+        UIAnimator.Instance.HideUI(settingsPanel.gameObject, 0.3f);
+        UIAnimator.Instance.HideBackground();
+    }
 
 }

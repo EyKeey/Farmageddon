@@ -34,9 +34,12 @@ public class LevelInfoPanel : MonoBehaviour
 
         foreach(var objectives in level.winCondition.requiredItems)
         {
+            ItemData itemInfo = ItemManager.Instance.GetItemDataByName(objectives.itemName);
+            Debug.Log(itemInfo);
+            Debug.Log(objectives.itemName);
             GameObject newCard = Instantiate(objectivesCardPrefab, objectivesPanel);
-            newCard.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("Icons/" + objectives.itemName + "Icon");
-            newCard.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = objectives.itemName;
+            newCard.transform.GetChild(0).GetComponent<Image>().sprite = itemInfo.itemIcon;
+            newCard.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = itemInfo.baseName;
             newCard.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = "x" + objectives.count;
             UIAnimator.Instance.ShowUI(newCard, 0.4f);
         }
