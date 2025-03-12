@@ -21,6 +21,7 @@ public class MergeManager : MonoBehaviour
 
     public IEnumerator TryMerge(List<ItemData> itemDatas)
     {
+        ProductionPanel.Instance.isResultSlotAvailable = false;
 
         List<string> inputItems = new List<string>();
         foreach (var itemData in itemDatas)

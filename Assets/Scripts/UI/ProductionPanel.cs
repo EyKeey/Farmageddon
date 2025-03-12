@@ -55,7 +55,6 @@ public class ProductionPanel : MonoBehaviour
 
     private void FinishCountdown()
     {
-        isResultSlotAvailable = true;
         mergeResultSlot.GetChild(1).gameObject.SetActive(false);
         mergeResultSlot.GetComponent<Button>().enabled = true;
     }
@@ -187,7 +186,7 @@ public class ProductionPanel : MonoBehaviour
         }
         else
         {
-            Debug.Log("Üretim haznesi dolu.");
+            UIAnimator.Instance.ShowMessage("Üretim haznesi dolu.");
         }
     }
 
@@ -199,9 +198,11 @@ public class ProductionPanel : MonoBehaviour
 
     public void OnResultButtonClicked(ItemData item)
     {
+        if (item == null) return;
+
         InventoryManager.Instance.AddItemToInventory(item.baseName);
         mergeResultSlot.GetChild(0).gameObject.SetActive(false);
-
+        isResultSlotAvailable = true;
         UpdateItemsPanel();
     }
 
