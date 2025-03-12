@@ -35,7 +35,7 @@
       "winCondition": {
         "requiredItems": [
           {
-            "itemName": "Egg",
+            "itemName": "Egg",  
             "count": 8
           }
         ],

@@ -47,7 +47,7 @@ public class UIAnimator : MonoBehaviour
             darkBackground.gameObject.SetActive(true);
             Image image = darkBackground.GetComponent<Image>();
             image.DOFade(0, 0);
-            image.DOFade(0.7f, 0.3f);
+            image.DOFade(0.85f, 0.3f);
         }
     }
 

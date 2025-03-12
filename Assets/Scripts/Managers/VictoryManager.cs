@@ -7,7 +7,7 @@ public class VictoryManager : MonoBehaviour
 {
     public static VictoryManager instance;
 
-    public GameObject victoryScreen;
+    public Transform victoryScreen;
  
 
     public bool isLevelCompleted = false;
@@ -125,8 +125,9 @@ public class VictoryManager : MonoBehaviour
         Canvas canvas = FindAnyObjectByType<Canvas>();
         if (canvas != null)
         {
-            GameObject victoryScreenObj = Instantiate(victoryScreen, canvas.transform);
-            victoryScreen.GetComponent<VictoryScreenUI>().UpdateStars(stars);
+            victoryScreen.gameObject.GetComponent<VictoryScreenUI>().UpdateStars(stars);
+            UIAnimator.Instance.ShowUI(victoryScreen.gameObject, 0.3f);
+            UIAnimator.Instance.ShowBackground();
         }
 
     }

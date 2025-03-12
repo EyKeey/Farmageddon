@@ -8,14 +8,16 @@ public class VictoryScreenUI : MonoBehaviour
 {
     public Transform Stars;
 
-
-    public void UpdateStars(int stars)
+    private void Awake()
     {
-        Debug.Log(stars);
-        int starScore = stars;
+    }
 
+    public void UpdateStars(int starScore)
+    {
+        
         for (int i = 0; i < Stars.childCount; i++)
         {
+           
             Stars.GetChild(i).gameObject.GetComponent<Image>().color = Color.black;
         }
 
