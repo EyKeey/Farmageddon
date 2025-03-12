@@ -30,7 +30,7 @@ public class LevelLoader : MonoBehaviour
         savePath = Path.Combine(Application.persistentDataPath, "levels.json");
         
         //BUILD EDERKEN SILINECEK --ilk defa açýlýyormuþ gibi davranmasý için var
-        File.Delete(savePath);
+        //File.Delete(savePath);
         
         
         

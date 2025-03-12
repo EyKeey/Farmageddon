@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
         }
 
         //BUILD EDERKEN SILINECEK -ilk  defa açýlýyormuþ gibi davranmasý için var
-        PlayerPrefs.DeleteAll();
+        //PlayerPrefs.DeleteAll();
 
         if (!PlayerPrefs.HasKey("FirstLaunch")) 
         {

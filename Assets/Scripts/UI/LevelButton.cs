@@ -96,16 +96,18 @@ public class LevelButton : MonoBehaviour
 
     private void OnButtonClick()
     {
-        if (!isCompleted)
+        if(!isCompleted && PlayerPrefs.GetInt("CurrentLevel") != levelIndex)
         {
-            Canvas canvas = FindAnyObjectByType<Canvas>();
-            GameObject levelInfoPanel = Instantiate(levelInfoPanelPrefab, canvas.transform);
-            levelInfoPanel.GetComponent<LevelInfoPanel>().levelIndex = levelIndex;
-            UIAnimator.Instance.ShowUI(levelInfoPanel, 0.3f);
-            UIAnimator.Instance.darkBackground = darkBg;
-            UIAnimator.Instance.ShowBackground();
+            return;
         }
 
+        Canvas canvas = FindAnyObjectByType<Canvas>();
+        GameObject levelInfoPanel = Instantiate(levelInfoPanelPrefab, canvas.transform);
+        levelInfoPanel.GetComponent<LevelInfoPanel>().levelIndex = levelIndex;
+        UIAnimator.Instance.ShowUI(levelInfoPanel, 0.3f);
+        UIAnimator.Instance.darkBackground = darkBg;
+        UIAnimator.Instance.ShowBackground();
+    
     }
 
 }

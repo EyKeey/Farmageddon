@@ -53,7 +53,7 @@ public class WaterManager : MonoBehaviour
 
     public void FullWater()
     {
-        if (currentWaterAmount != fullWaterAmount)
+        if (currentWaterAmount == fullWaterAmount)
         {
             UIAnimator.Instance.ShowMessage("Su tanký dolu.");
             return;
