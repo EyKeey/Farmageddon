@@ -20,15 +20,7 @@ public class MergeAnimationScene : MonoBehaviour
 
     private void Start()
     {
-        if (DOTween.IsTweening(transform))
-        {
-            Debug.Log("DOTween ÇALIŞIYOR!");
-        }
-        else
-        {
-            Debug.LogError("DOTween ÇALIŞMIYOR! DOTween başlatılmış mı?");
-        }
-
+        
         DOTween.Init();
         DOTween.PlayAll();
 

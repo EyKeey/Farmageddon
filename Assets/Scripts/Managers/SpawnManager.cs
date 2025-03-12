@@ -17,6 +17,7 @@ public class SpawnManager : MonoBehaviour
     private Timer timer;
     private int randomSec = -1;
     private bool waitForMinute= false;
+    float nextSpawnTime = 0f;
 
     private void Awake()
     {
@@ -46,31 +47,20 @@ public class SpawnManager : MonoBehaviour
     {
         float elapsedTime = timer.GetTime();
 
-        int sec = Mathf.FloorToInt(elapsedTime % 60);
-
-
-        if (randomSec == -1 && !waitForMinute)
+        if (elapsedTime >= nextSpawnTime)
         {
-            randomSec = UnityEngine.Random.Range(20, 55);
-        }
-        else 
-        {
-            if(sec == 0)
+            if (nextSpawnTime != 0f)
             {
-                waitForMinute = false;
+                SpawnMob(mobName);
             }
-        }
+            // Sonraki spawn zamaný, þu anki zamandan 40-115 sn sonra olacak.
+            float randomDelay = UnityEngine.Random.Range(40f, 115f);
+            nextSpawnTime = elapsedTime + randomDelay;
 
-        if(sec == randomSec)
-        {
-            SpawnMob(mobName);
-            randomSec = -1;
-            waitForMinute = true;
         }
-
     }
 
-    
+
 
     public void SpawnMob(String animalName)
     {

@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class LevelReqUI : MonoBehaviour
 {
     public GameObject ReqUIChildPrefab;
+    public Transform reqUIPanel;
     private List<GameObject> activeUIElements = new List<GameObject>();
 
     private void Start()
@@ -44,7 +45,7 @@ public class LevelReqUI : MonoBehaviour
 
     private void CreateRequirementUI(string requirementName, int currentAmount, int requiredAmount, string type)
     {
-        GameObject reqItem = Instantiate(ReqUIChildPrefab, transform);
+        GameObject reqItem = Instantiate(ReqUIChildPrefab, reqUIPanel);
         activeUIElements.Add(reqItem);
 
         if(type == "Item")
@@ -60,8 +61,8 @@ public class LevelReqUI : MonoBehaviour
             reqItem.transform.GetChild(0).GetComponent<Image>().sprite = Resources.Load<Sprite>("Icons/GoldIcon");
         }
 
-        reqItem.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = requirementName;
-        reqItem.transform.GetChild(2).GetComponent<TextMeshProUGUI>().text = $"{currentAmount}/{requiredAmount}";
+        reqItem.transform.GetChild(1).GetComponent<TextMeshProUGUI>().text = $"{currentAmount}/{requiredAmount}";
+        
     }
 
     private void ClearUI()
