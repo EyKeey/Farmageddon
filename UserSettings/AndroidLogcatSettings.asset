@@ -1,9 +1,9 @@
 {
     "m_SelectedDeviceId": "EPHUT20A22003219",
     "m_SelectedProcess": {
-        "deviceId": "EPHUT20A22003219",
-        "name": "com.DefaultCompany.com.unity.template.mobile2D",
-        "processId": 20298,
+        "deviceId": "",
+        "name": "",
+        "processId": 0,
         "exited": false
     },
     "m_SelectedPriority": 0,
@@ -11,97 +11,31 @@
         {
             "deviceId": "EPHUT20A22003219",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 16283,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 10259,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 10272,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 25938,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 25946,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 4647,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 15297,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 15285,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 27454,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 14788,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 27459,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 12672,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 12657,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
-            "processId": 30307,
-            "exited": false
-        },
-        {
-            "deviceId": "EPHUT20A22003219",
-            "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 16955,
-            "exited": false
+            "exited": true
         },
         {
             "deviceId": "EPHUT20A22003219",
             "name": "com.DefaultCompany.com.unity.template.mobile2D",
             "processId": 20298,
+            "exited": true
+        },
+        {
+            "deviceId": "EPHUT20A22003219",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 25766,
+            "exited": true
+        },
+        {
+            "deviceId": "EPHUT20A22003219",
+            "name": "com.DefaultCompany.com.unity.template.mobile2D",
+            "processId": 25778,
+            "exited": true
+        },
+        {
+            "deviceId": "EPHUT20A22003219",
+            "name": "com.huawei.android.launcher",
+            "processId": 2518,
             "exited": false
         }
     ],

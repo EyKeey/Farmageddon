@@ -118,9 +118,12 @@ public class DeliveryPanel : MonoBehaviour
             }
         }
 
+        addedItems.Clear();
+
+        ResetAllUI();
         UIAnimator.Instance.HideUI(gameObject, 0.3f);
         UIAnimator.Instance.HideBackground();
-        ResetAllUI();
+        
     }
 
     public void OnAddButtonPressed(ItemData item)

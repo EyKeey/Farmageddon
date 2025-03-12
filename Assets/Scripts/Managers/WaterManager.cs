@@ -48,7 +48,7 @@ public class WaterManager : MonoBehaviour
 
     private void WaterEmpty()
     {
-        //Debug.Log("no water");
+        //UIAnimator.Instance.ShowMessage("Yeterli su yok.");
     }
 
     public void FullWater()
