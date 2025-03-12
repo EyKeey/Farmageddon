@@ -107,15 +107,17 @@ public class InventoryManager : MonoBehaviour
 
     public int GetItemCount(string itemName)
     {
+        int count = 0;
+
         foreach (var item in inventory)
         {
             if (item.Key.itemName == itemName)
             {
-                return item.Value;
+                count += item.Value;
             }
         }
 
-        return 0;
+        return count;
     }
 
     #endregion

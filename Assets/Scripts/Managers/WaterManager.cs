@@ -53,8 +53,13 @@ public class WaterManager : MonoBehaviour
 
     public void FullWater()
     {
+        if (currentWaterAmount != fullWaterAmount)
+        {
+            UIAnimator.Instance.ShowMessage("Su tanký dolu.");
+            return;
+        }
 
-        if (MoneyManager.instance.DecreaseMoney(waterCost) && currentWaterAmount != fullWaterAmount)
+        if (MoneyManager.instance.DecreaseMoney(waterCost))
         {
             currentWaterAmount = fullWaterAmount;
             waterSlider.value = currentWaterAmount / fullWaterAmount;

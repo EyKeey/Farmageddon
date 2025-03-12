@@ -87,6 +87,8 @@ public class GameManager : MonoBehaviour
         {
             SpawnManager.instance.SpawnMob(animal);
         }
+
+        Time.timeScale = 1.0f;
     }
     
     public void PauseGame()

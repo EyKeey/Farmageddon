@@ -9,7 +9,7 @@ public class SpawnManager : MonoBehaviour
 {
     public static SpawnManager instance;
 
-    [SerializeField] PolygonCollider2D spawnArea;
+    public PolygonCollider2D spawnArea;
     public GameObject gamePanel;
     
     private Bounds bounds;
@@ -20,19 +20,20 @@ public class SpawnManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance == null)
-        {
-            instance = this;
-        }
-        else
+        if (instance != null && instance != this)
         {
             Destroy(gameObject);
+            return;
         }
+
+        instance = this;
     }
 
     private void Start()
     {
         timer = GameObject.FindObjectOfType<Timer>();
+        
+        spawnArea = GameObject.FindObjectOfType<PolygonCollider2D>();
         bounds = spawnArea.bounds;
     }
 
