@@ -1337,11 +1337,11 @@ RectTransform:
   - {fileID: 1645574464}
   m_Father: {fileID: 1975783793}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -280.90005, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 30, y: 30}
   m_SizeDelta: {x: 428.2, y: 120}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 0}
 --- !u!114 &574276652
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3025,6 +3025,7 @@ GameObject:
   - component: {fileID: 1975783793}
   - component: {fileID: 1975783796}
   - component: {fileID: 1975783795}
+  - component: {fileID: 1975783797}
   m_Layer: 5
   m_Name: Topbar
   m_TagString: Untagged
@@ -3090,6 +3091,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1975783792}
   m_CullTransparentMesh: 1
+--- !u!114 &1975783797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975783792}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 696f5f54218b1124885e5eda043f9ff8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isTopBar: 1
 --- !u!1 &2021219655
 GameObject:
   m_ObjectHideFlags: 0
