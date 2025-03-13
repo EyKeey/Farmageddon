@@ -16,3 +16,7 @@ Unlike Farm Frenzy, there is a merge system instead of production buildings. Thi
 Items produced can be sold. The player is constantly faced with the decision of whether to combine, sell or accumulate items, and can complete the level in any way they choose.
 
 ![ss5](https://github.com/user-attachments/assets/d7bbde53-1096-4b68-bf55-3a258e46ff56)
+
+
+If you want to try the prototype:
+https://www.dropbox.com/scl/fi/c6ux9b3ako65skndbgdf5/farmageddon.apk?rlkey=rjgfpe9jmtaeet5m3sr24624v&st=cqfhj0g8&dl=0
