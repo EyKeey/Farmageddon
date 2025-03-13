@@ -50,9 +50,8 @@ public class InputManager : MonoBehaviour
             }
 
             //else apply the grass procedure 
-            if (hit.collider.gameObject.CompareTag("Area"))
+            else if (hit.collider.gameObject.CompareTag("Area"))
             {
-
                 Vector3 spawnPos = hit.point;
                 Grass grass = FindAnyObjectByType<Grass>();
                 if (grass != null)
