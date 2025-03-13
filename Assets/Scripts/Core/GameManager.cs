@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.InteropServices.WindowsRuntime;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.VFX;
@@ -19,40 +20,17 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            Destroy(Instance);
+            Destroy(gameObject);
         }
 
-        //BUILD EDERKEN SILINECEK -ilk  defa açýlýyormuþ gibi davranmasý için var
-        //PlayerPrefs.DeleteAll();
-
-        if (!PlayerPrefs.HasKey("FirstLaunch")) 
-        {
-            Debug.Log("Oyun ilk defa açýlýyor!");
-
-            PlayerPrefs.SetInt("FirstLaunch", 1); 
-            PlayerPrefs.SetInt("CurrentLevel", 1); 
-            PlayerPrefs.Save();
-        }
-        else
-        {
-            Debug.Log("Oyun daha önce açýlmýþ!");
-        }
-
+        CheckFirstLaunch();
     }
 
-    private void Start()
-    {
-        
-    }
-
-    private void Update()
-    {
-        
-    }
-
+    
     public void LevelCompleted()
     {
         PauseGame();
+
         float elapsedTime = Timer.Instance.elapsedTime;
         LevelData levelInfo = LevelLoader.instance.GetCurrentLevelData();
         StarTimes starTimes =   levelInfo.starTimes;
@@ -67,19 +45,21 @@ public class GameManager : MonoBehaviour
         }
         else
         {
-            //Eðer öncekinden daha çok yýldýz alýndýysa yýldýzlarý güncelle
-            if (levelInfo.currentStars > stars)
+            
+            if (levelInfo.currentStars < stars)
             {
                 levelInfo.currentStars = stars;
+                LevelLoader.instance.SaveLevelData();
             }
         }
+
+        
     }
 
     public IEnumerator SetLevel(int money, string[] animals)
     {
-        yield return new WaitUntil(() => MoneyManager.instance != null);
+        yield return new WaitUntil(() => MoneyManager.instance != null && SpawnManager.instance != null);
 
-        
         //set money
         MoneyManager.instance.currentMoney = money;
         //spawn animals
@@ -88,19 +68,44 @@ public class GameManager : MonoBehaviour
             SpawnManager.instance.SpawnMob(animal);
         }
 
-        Time.timeScale = 1.0f;
+        ContinueGame();
     }
     
     public void PauseGame()
     {
-        Time.timeScale = 0f;
+        if (Time.timeScale == 0)
+            return;
+        else
+            Time.timeScale = 0;
+        
     }
+
     public void ContinueGame()
     {
-        Time.timeScale = 1f;
+        if (Time.timeScale == 1)
+            return;
+        else
+            Time.timeScale = 1;
+
     }
 
+    private void CheckFirstLaunch()
+    {
+        if (!PlayerPrefs.HasKey("FirstLaunch"))
+        {
+            PlayerPrefs.SetInt("FirstLaunch", 1);
+            PlayerPrefs.SetInt("CurrentLevel", 1);
+            PlayerPrefs.Save();
+        }
+    }
 
+    public void ResetGameProgress()
+    {
+        PlayerPrefs.DeleteAll();
+        PlayerPrefs.SetInt("FirstLaunch", 1);
+        PlayerPrefs.SetInt("CurrentLevel", 1);
+        PlayerPrefs.Save();
+    }
 
     public void OnMenuClick()
     {

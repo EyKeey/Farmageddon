@@ -68,7 +68,7 @@ public class ProductionPanel : MonoBehaviour
 
     public void UpdateItemsPanel()
     {
-        // Önce paneli temizle
+       
         foreach (Transform child in itemsPanel)
         {
             Destroy(child.gameObject);
@@ -83,7 +83,7 @@ public class ProductionPanel : MonoBehaviour
 
         foreach (var item in inventoryManager.inventory)
         {
-            if (item.Key == null || itemCardPrefab == null) continue; // Hatalarý önlemek için null kontrolü
+            if (item.Key == null || itemCardPrefab == null) continue; 
 
             GameObject card = Instantiate(itemCardPrefab, itemsPanel);
             Image icon = card.transform.GetChild(0).GetComponent<Image>();
@@ -102,14 +102,14 @@ public class ProductionPanel : MonoBehaviour
 
     private void UpdateSlots()
     {
-        // Mevcut slotlarý temizle
+       
         foreach (Transform slot in mergeSlots)
         {
             slot.GetChild(0).gameObject.SetActive(false);
             slot.GetComponent<Button>().onClick.RemoveAllListeners();
         }
 
-        // Eklenen öðeleri slotlara yerleþtir
+       
         for (int k = 0; k < addedItems.Count && k < mergeSlots.childCount; k++)
         {
             ItemData item = addedItems[k];

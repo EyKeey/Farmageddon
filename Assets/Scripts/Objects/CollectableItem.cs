@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CollectableItem : MonoBehaviour
+public class CollectableItem : MonoBehaviour, IInteractable
 {
     
     [SerializeField] public string itemName;
@@ -32,6 +32,11 @@ public class CollectableItem : MonoBehaviour
             moveSpeed * Time.deltaTime
             );
         }
+    }
+
+    public void Interact()
+    {
+        StartCoroutine(Collect());
     }
 
     public IEnumerator Collect()

@@ -41,10 +41,17 @@ public class InputManager : MonoBehaviour
 
         if (hit.collider != null)
         {
+            //if the object is interactable then interact
+            IInteractable interactable = hit.collider.gameObject.GetComponent<IInteractable>();
+             if (interactable != null)
+            {
+                interactable.Interact();
+                return;
+            }
 
+            //else apply the grass procedure 
             if (hit.collider.gameObject.CompareTag("Area"))
             {
-
 
                 Vector3 spawnPos = hit.point;
                 Grass grass = FindAnyObjectByType<Grass>();
@@ -52,27 +59,6 @@ public class InputManager : MonoBehaviour
                 {
                     grass.SpawnGrassAtMousePosition(spawnPos);
                 }
-            }
-
-            else if (hit.collider.gameObject.CompareTag("Bear"))
-            {
-                hit.collider.gameObject.GetComponent<AnimalHunt>().BearHunt();
-            }
-
-            else if (hit.collider.gameObject.GetComponent<CollectableItem>())
-            {
-                StartCoroutine(hit.collider.gameObject.GetComponent<CollectableItem>().Collect());
-            }
-
-            else if (hit.collider.gameObject.GetComponent<Worm>())
-            {
-                Debug.Log("hmm");
-                hit.collider.gameObject.GetComponent<Worm>().OnWormCatched();
-            }
-            
-            else if (hit.collider.gameObject.GetComponent<Seed>() != null)
-            {
-                hit.collider.gameObject.GetComponent<Seed>().Collect();
             }
             
         }

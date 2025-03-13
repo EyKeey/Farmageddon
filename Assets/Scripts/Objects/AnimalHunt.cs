@@ -2,12 +2,12 @@ using System;
 using System.Collections;
 using UnityEngine;
 
-public class AnimalHunt : MonoBehaviour
+public class AnimalHunt : MonoBehaviour, IInteractable
 {
     private int clickCount;
     private float clickCooldown = 2f;
     private float lastClickTime = 0;
-    public bool isCatched = false;
+    [HideInInspector] public bool isCatched = false;
     private float catchTime;
     private float escapeTime = 10;
 
@@ -16,7 +16,7 @@ public class AnimalHunt : MonoBehaviour
 
     private void Start()
     {
-        // Bileþenleri önceden al ve kontrol et
+        
         mobMovement = GetComponent<MobMovement>();
         if (mobMovement == null)
         {
@@ -46,13 +46,12 @@ public class AnimalHunt : MonoBehaviour
 
     private IEnumerator Escape()
     {
-        Debug.Log("Ayý kaçýyor!");
-
+        
         GameObject escapeObj = GameObject.Find("EscapePoint");
         if (escapeObj == null)
         {
             Debug.LogError("Escape point bulunamadý!");
-            yield break; // Hata varsa coroutine'i bitir
+            yield break; 
         }
 
         Vector2 escapePoint = escapeObj.transform.position;
@@ -67,6 +66,12 @@ public class AnimalHunt : MonoBehaviour
         yield return new WaitForSeconds(3);
         Destroy(gameObject);
     }
+
+    public void Interact()
+    {
+        BearHunt();
+    }
+
 
     public void BearHunt()
     {
@@ -107,7 +112,7 @@ public class AnimalHunt : MonoBehaviour
             }
             else
             {
-                Debug.LogWarning("AnimalHunt: Çarpýlan nesnede Mob bileþeni yok!");
+                return;
             }
         }
     }

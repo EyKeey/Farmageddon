@@ -1,14 +1,9 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class AnimalManager : MonoBehaviour
 {
     public static AnimalManager Instance;
-
-    [SerializeField] public List<AnimalData> allAnimals;
 
     private void Awake()
     {
@@ -20,36 +15,24 @@ public class AnimalManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
-
-    }
-
-    private void Start()
-    {
-        GetAnimalList();
-    }
-
-    private void GetAnimalList()
-    {
-        List<AnimalData> list = AnimalLoader.Instance.allAnimals;
-
-        foreach (AnimalData data in list)
-        {
-            allAnimals.Add(data);
-        }
     }
 
     public AnimalData GetAnimalByName(string animalName)
     {
-       
-        foreach (AnimalData data in allAnimals)
+        foreach (AnimalData data in AnimalLoader.Instance.allAnimals)
         {
-            if(data.animalName == animalName)
+            if (data.animalName == animalName)
             {
                 return data;
             }
         }
-        
+
+        Debug.LogWarning($"Animal with name '{animalName}' not found.");
         return null;
     }
-    
+
+    public List<AnimalData> GetAllAnimals()
+    {
+        return AnimalLoader.Instance.allAnimals;
+    }
 }

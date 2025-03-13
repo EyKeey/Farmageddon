@@ -16,26 +16,23 @@ public class LevelReqUI : MonoBehaviour
 
     public void RefreshUI()
     {
-        ClearUI(); // Önce eski UI elemanlarını temizle
+        ClearUI(); 
 
         LevelData currentLevelData = LevelLoader.instance.GetCurrentLevelData();
         if (currentLevelData == null) return;
 
-        // Item Gereksinimleri
         foreach (var item in currentLevelData.winCondition.requiredItems)
         {
             int currentAmount = InventoryManager.Instance.GetItemCount(item.itemName);
             CreateRequirementUI(item.itemName, currentAmount, item.count, "Item");
         }
 
-        // Hayvan Gereksinimleri
         foreach (var animal in currentLevelData.winCondition.requiredAnimals)
         {
             int currentAmount = InventoryManager.Instance.GetAnimalCount(animal.animalName);
             CreateRequirementUI(animal.animalName, currentAmount, animal.count, "Animal");
         }
 
-        // Altın Gereksinimi
         if (currentLevelData.winCondition.requiredGold > 0)
         {
             int currentAmount = MoneyManager.instance.currentMoney;

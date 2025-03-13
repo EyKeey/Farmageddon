@@ -2,10 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Worm : MonoBehaviour
+public class Worm : MonoBehaviour, IInteractable
 {
     public GameObject seedPrefab;
     
+    
+    public void Interact()
+    {
+        OnWormCatched();
+    }
 
     public void OnWormCatched()
     {

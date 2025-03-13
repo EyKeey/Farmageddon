@@ -21,7 +21,7 @@ public class MobMovement : MonoBehaviour
 
     private void Start()
     {
-        // Ýlk konumu sýnýr içinde belirle
+        
         transform.position = GetRandomPointInsideBoundary();
         ChooseNewTarget();
     }
@@ -77,10 +77,9 @@ public class MobMovement : MonoBehaviour
             moveSpeed * Time.deltaTime
         );
 
-        // Flip sprite based on movement direction
         spriteRenderer.flipX = (currentPosition.x - targetPosition.x) < 0;
 
-        // Set movement animation
+        
         if (animator != null)
         {
             animator.SetBool("Walking", true);
@@ -120,7 +119,7 @@ public class MobMovement : MonoBehaviour
     private Vector2 GetRandomPointInsideBoundary()
     {
         Vector2 randomPoint;
-        int maxTries = 10; // Sonsuz döngüye girmemesi için maksimum deneme sayýsý
+        int maxTries = 10;
         int attempts = 0;
 
         do

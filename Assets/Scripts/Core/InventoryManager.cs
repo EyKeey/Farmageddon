@@ -14,9 +14,9 @@ public class InventoryManager : MonoBehaviour
     public Dictionary<ItemData, int> inventory = new Dictionary<ItemData, int>();
     public Dictionary<AnimalData, int> animals = new Dictionary<AnimalData, int>();
 
-    public int catchedBears = 0;
-    public int maxCapacity = 20;
-    public int currentFullness = 0;
+    [HideInInspector] public int catchedBears = 0;
+    [HideInInspector] public int maxCapacity = 20;
+    [HideInInspector] public int currentFullness = 0;
 
     private void Awake()
     {
@@ -27,11 +27,7 @@ public class InventoryManager : MonoBehaviour
     }
 
 
-    private void Update()
-    {
-        
-    }
-
+    #region fullness
     private void CalculateFullness()
     {
         currentFullness = 0;
@@ -61,6 +57,8 @@ public class InventoryManager : MonoBehaviour
         }
 
     }
+
+    #endregion
 
     #region Items
     public void ReceiveItem(string itemName)

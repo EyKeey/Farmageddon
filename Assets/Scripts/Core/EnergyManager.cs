@@ -10,7 +10,7 @@ public class EnergyManager : MonoBehaviour
     public int maxEnergy = 100;
     public int currentEnergy;
     public int energyPerLevel = 20;
-    public float rechargeDuration = 300f; // 5 dakika = 300 saniye
+    public float rechargeDuration = 300f; 
 
     private DateTime lastQuitTime;
     private DateTime lastEnergyGivenTime;
@@ -43,7 +43,6 @@ public class EnergyManager : MonoBehaviour
         }
     }
 
-    // Oyuncu level baþlatýnca enerji azalt
     public bool UseEnergyForLevel()
     {
         if (currentEnergy >= energyPerLevel)
@@ -55,16 +54,16 @@ public class EnergyManager : MonoBehaviour
                 lastEnergyGivenTime = DateTime.Now;
 
             UpdateEnergyUI();
-            return true; // Level baþlayabilir
+            return true;
         }
         else
         {
             Debug.Log("Yeterli enerji yok!");
-            return false; // Yetersiz enerji
+            return false; 
         }
     }
 
-    // Offline enerji hesabý (oyun açýlýrken)
+
     private void CheckOfflineEnergy()
     {
         if (PlayerPrefs.HasKey("LastQuitTime"))
@@ -76,7 +75,6 @@ public class EnergyManager : MonoBehaviour
             int energyToAdd = Mathf.FloorToInt((float)timePassed.TotalSeconds / rechargeDuration);
             currentEnergy = Mathf.Min(currentEnergy + energyToAdd, maxEnergy);
 
-            // Son eklenen zaman, eðer hala max deðilse hesaplanýr
             if (currentEnergy < maxEnergy)
             {
                 float remainingSeconds = (float)timePassed.TotalSeconds % rechargeDuration;
@@ -84,15 +82,14 @@ public class EnergyManager : MonoBehaviour
             }
             else
             {
-                lastEnergyGivenTime = DateTime.MinValue; // Tam doluysa sýfýrla
+                lastEnergyGivenTime = DateTime.MinValue; 
             }
 
             SaveEnergy();
         }
     }
 
-    // Enerji UI güncelle
-    private void UpdateEnergyUI()
+    public void UpdateEnergyUI()
     {
         if (energyText != null)
         {
@@ -100,7 +97,6 @@ public class EnergyManager : MonoBehaviour
         }
     }
 
-    // Timer UI güncelle (kaç saniye kaldý)
     private void UpdateTimerUI()
     {
         if(timerText == null)
@@ -130,14 +126,14 @@ public class EnergyManager : MonoBehaviour
                 return;
             }
 
-            remainingSeconds = rechargeDuration; // Yeniden baþla
+            remainingSeconds = rechargeDuration;
         }
 
         TimeSpan t = TimeSpan.FromSeconds(remainingSeconds);
         timerText.text = $"{t.Minutes:D2}:{t.Seconds:D2}";
     }
 
-    // Enerji kaydet
+
     private void SaveEnergy()
     {
         PlayerPrefs.SetInt("Energy", currentEnergy);
@@ -155,7 +151,6 @@ public class EnergyManager : MonoBehaviour
         }
         else
         {
-            // Ýlk kez açýlýyorsa maxEnergy ile baþla ve kaydet
             currentEnergy = maxEnergy;
             PlayerPrefs.SetInt("Energy", currentEnergy);
             PlayerPrefs.Save();
@@ -167,8 +162,6 @@ public class EnergyManager : MonoBehaviour
             lastEnergyGivenTime = DateTime.MinValue;
     }
 
-
-    // Oyundan çýkarken zamaný kaydet
     private void OnApplicationQuit()
     {
         PlayerPrefs.SetString("LastQuitTime", DateTime.Now.ToString());

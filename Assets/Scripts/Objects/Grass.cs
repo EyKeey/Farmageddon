@@ -9,10 +9,9 @@ public class Grass : MonoBehaviour
     public void SpawnGrassAtMousePosition(Vector3 spawnPos)
     {
 
-        WaterManager water = FindAnyObjectByType<WaterManager>();
-        if (water != null)
+        if (WaterManager.instance != null)
         {
-            if (water.UseWater())
+            if (WaterManager.instance.UseWater())
             {
                 Vector3 spawnPosition = spawnPos;
                 spawnPosition.z = 1;

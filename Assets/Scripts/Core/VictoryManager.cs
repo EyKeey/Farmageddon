@@ -59,7 +59,6 @@ public class VictoryManager : MonoBehaviour
 
         }
 
-        Debug.Log("item okeyto");
         return true;
     }
 
@@ -78,7 +77,6 @@ public class VictoryManager : MonoBehaviour
         
         }
 
-        Debug.Log("hayvan okeyto");
         return true;
         
     }
@@ -91,7 +89,7 @@ public class VictoryManager : MonoBehaviour
         }
         else
         {
-            Debug.Log("altýn okeyto");
+
             return true;
         }
 

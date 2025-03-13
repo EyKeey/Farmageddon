@@ -6,7 +6,7 @@ public class SafeAreaUI : MonoBehaviour
     private RectTransform rectTransform;
     private Rect lastSafeArea;
 
-    [SerializeField] private bool isTopBar = false; // Eðer üst bar ise true, alt bar ise false
+    [SerializeField] private bool isTopBar = false; 
 
     private void Awake()
     {
@@ -35,17 +35,17 @@ public class SafeAreaUI : MonoBehaviour
 
         if (isTopBar)
         {
-            // Üst bar: Safe Area'nýn üstüne hizala
+            
             anchorMin.y = safeTop;
             anchorMax.y = 1f;
-            rectTransform.pivot = new Vector2(0.5f, 1f); // Üstten hizalama
+            rectTransform.pivot = new Vector2(0.5f, 1f); 
         }
         else
         {
-            // Alt bar: Safe Area'nýn altýna hizala
+            
             anchorMin.y = 0f;
             anchorMax.y = safeBottom;
-            rectTransform.pivot = new Vector2(0.5f, 0f); // Alttan hizalama
+            rectTransform.pivot = new Vector2(0.5f, 0f); 
         }
 
         rectTransform.anchorMin = anchorMin;

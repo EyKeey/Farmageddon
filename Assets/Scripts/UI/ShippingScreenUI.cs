@@ -49,7 +49,6 @@ public class DeliveryPanel : MonoBehaviour
             return;
         }
 
-        // Ensure we only iterate up to the minimum of addedItems.Count and truckGroup.Count
         int itemsToDisplay = Mathf.Min(addedItems.Count, truckGroup.Count);
 
         for (int i = 0; i < itemsToDisplay; i++)
@@ -135,11 +134,11 @@ public class DeliveryPanel : MonoBehaviour
             if (!addedItems.ContainsKey(item))
             {
                 Debug.Log("Truck slots are full. Cannot add more items.");
-                return; // Slotlar dolu, iþlemi sonlandýr
+                return; 
             }
         }
 
-        // Eðer item zaten eklenmiþse ve sayýsý 10'dan azsa, sayýsýný artýr
+
         if (addedItems.ContainsKey(item))
         {
             if (addedItems[item] < 10)
@@ -149,19 +148,19 @@ public class DeliveryPanel : MonoBehaviour
             else
             {
                 Debug.Log("Maximum stack size reached for this item.");
-                return; // Maksimum stack boyutuna ulaþýldý, iþlemi sonlandýr
+                return; 
             }
         }
         else
         {
-            // Yeni bir item ekle
+           
             addedItems.Add(item, 1);
         }
 
-        // Storage'den item kaldýr
+    
         InventoryManager.Instance.RemoveItemFromInventory(item.baseName);
 
-        // UI'ý güncelle
+      
         ResetAllUI();
         UpdateInventoryUI();
         UpdateTruckUI();
@@ -175,7 +174,8 @@ public class DeliveryPanel : MonoBehaviour
             {
                 if (addedItems.ElementAt(i).Value > 0)
                 {
-                    amount = addedItems.ElementAt(i).Key.sellPrice * addedItems.ElementAt(i).Value;
+                    
+                    amount += addedItems.ElementAt(i).Key.sellPrice * addedItems.ElementAt(i).Value;
                     addedItems.Remove(addedItems.ElementAt(i).Key);
                 }
             }

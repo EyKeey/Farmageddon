@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Seed : MonoBehaviour
+public class Seed : MonoBehaviour, IInteractable
 {
     public SeedType SeedType;
 
@@ -14,6 +14,11 @@ public class Seed : MonoBehaviour
         spr = GetComponent<SpriteRenderer>();
         spr.sprite = Resources.Load<Sprite>("Sprites/" + SeedType.seedName);
 
+    }
+
+    public void Interact()
+    {
+        Collect();
     }
 
     public void Collect()
